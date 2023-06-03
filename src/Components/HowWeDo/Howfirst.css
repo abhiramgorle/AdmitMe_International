@@ -1,0 +1,28 @@
+.howwedofirst {
+    width: 100%;
+    height: 476px;
+    background: linear-gradient(233deg, #D71489 -7.04%, #004788 100%);
+    opacity: 0.89;
+}
+
+.howwedoimg img{
+        width: 100%;
+        height: 476px;
+        opacity: 0.33;
+}
+
+.howwedoimagecontent h2 {
+    position: absolute;
+    top: 110px;
+    left: 375px;
+    width: 845px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 117px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
+}

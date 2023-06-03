@@ -1,0 +1,128 @@
+.letsmain {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 544px;
+    height: 700px;
+}
+.letsmainhead {
+    width: 377px;
+    position: absolute;
+    top: 10px;
+    left: 560px;
+}
+
+.letsmainhead h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #004fa2;
+        margin-block-end: 0em;
+        margin-block-start: 0em;
+    }
+
+.letsmainhead p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #737373;
+}
+.studyonly {
+    padding-top: 4px;
+}
+.letsdiv {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1300px;
+    top: 100px;
+    left: 180px;
+}
+
+.letssvg img{
+    width: 500px;
+}
+
+input,select,option{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #8D8D8D;
+    width: 330px;
+}
+input:hover{
+    border:none;
+    border-bottom: 1px solid #000;
+}
+
+.letsform {
+    display: flex;
+    flex-direction: column;
+    width: 716px;
+    height: 400px;
+    position: absolute;
+    top: 90px;
+    left: 535px;
+}
+form {
+    height: 400px;
+}
+form p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+color: #8D8D8D;
+}
+.nameemail, .phonestudy {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 50px;
+    height: 80px;
+}
+
+.messageonly {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.messageonly input{
+    width: 700px;
+}
+.submit {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+button {
+    background-color: #e0263c;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 130px;
+    border: none;
+    height: 40px;
+}
+
+.letsdiv button p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+margin-block-start: 0em;
+    margin-block-end: 0em;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}

@@ -1,0 +1,188 @@
+.getin {
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    top: 3100px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.getinhead {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -2px;
+    left: 150px;
+}
+.getinhead p{
+    width: 600px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+}
+
+.getin p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+}
+
+.getinhead h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0.2px;
+color: #252B42;
+margin-block-start: 0em;
+margin-block-end: 0em;
+padding-left: 158px;
+
+}
+
+.getinrest {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 140px;
+}
+.getinrest svg{
+        padding: 0px 119px;
+        position: absolute;
+        top: 80px;
+}
+.getin span{
+        padding: 0px 79px;
+        position: absolute;
+        top: 206px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        width: 150px;
+    
+}
+.twoemail {
+    position: absolute;
+    top: 150px;
+    left: 610px;
+}
+.resttwo span{
+    color: #ffffff;
+}
+.getinrest p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-left: 99px;
+    position :absolute;
+    top: 150px;
+}
+.resttwo p{
+    color: #ffffff;
+    padding-left: 50px;
+}
+.restthree p{
+    padding-left: 40px;
+}
+.restthree p.getsbtntext{
+    padding-left: 88px;
+}
+.restthree svg{
+    padding-left: 90px;
+}
+
+p.getsbtntext {
+    color: #e0263c;
+    top: 245px;
+}
+.resttwo p.getsbtntext {
+    color: #ffffff;
+    padding-left: 92px;
+}
+.restone {
+    width: 277px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    /* POSITION: absolute;
+    top: 112px;
+    left: 123px; */
+    padding-right: 50px;
+}
+.resttwo {
+    width: 307px;
+    background-color: #e0263c;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s;
+}
+.resttwo:hower{
+    transform: translateZ(100px);
+}
+
+.restthree {
+    width: 277px;
+    height: 309px;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+}
+a.getsbtn1 {
+    position: absolute;
+    top: 250px;
+    background-color: white;
+    width: 138px;
+    height: 47px;
+    border: 1px solid #E0263C;
+    border-radius: 5px;
+    left: 96px;
+}
+p.getsbtntext1 {
+    padding-left: 8px;
+    top: 0px;
+    color: #e0263c;
+}
+p.getsbtntext2 {
+    padding-left: 8px;
+    top: 0px;
+    color: #ffffff;
+}
+p.getsbtntext3 {
+    padding-left: 8px;
+    top: 0px;
+    color: #e0263c;
+}
+a.getsbtn3{
+    position: absolute;
+    top: 250px;
+    /* background-color: white; */
+    width: 138px;
+    height: 47px;
+    border: 1px solid #E0263C;
+    border-radius: 5px;
+    left: 766px;
+}
+a.getsbtn2 {
+    position: absolute;
+    top: 250px;
+    /* background-color: white; */
+    width: 138px;
+    height: 47px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    left: 410px;
+}

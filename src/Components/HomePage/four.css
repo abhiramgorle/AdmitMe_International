@@ -1,0 +1,78 @@
+.four {
+    background-color: #E0263C;
+    width: 1010px;
+    height: 250px;
+    position: absolute;
+    top: 568px;
+    left: 260px;
+    display: flex;
+}
+.fourflex{
+    display: flex;
+    flex-direction: column;
+}
+.fourp {
+    width: 240px;
+    height: 100px;
+    position: absolute;
+    top: 126px;
+    padding-left: 14px;
+}
+.fouricon{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    top: 29px;
+    padding-left: 90px;
+}
+.fouricon img{
+        width: 45px;
+        height: 45px;
+    
+}
+
+.fourh3{
+    width: 240px;
+    height: 70px;position: absolute;
+    top: 79px;
+    padding-left: 15px;
+    
+}
+.fourh3 h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 32px; */
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-block-start: 1em;
+}
+.fourp p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+}
+
+.fourone{
+    width:250px;
+    height: 251px;
+    background-color: aliceblue;
+}
+.fourtwo{
+    width:250px;
+}
+.fourthree{
+    width:250px;
+    height: 251px;
+    background-color: aliceblue;
+}
+.fourfour{
+    width:250px;
+}
