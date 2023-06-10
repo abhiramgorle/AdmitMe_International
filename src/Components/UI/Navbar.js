@@ -45,6 +45,12 @@ const Navbar = () => {
             <Link to="/StudyDest">Study Destination</Link>
         </li>
         <li>
+            <Link to="/Eduloans">Educational Loans</Link>
+        </li>
+        <li>
+            <Link to="/TestPrep">Test Prep</Link>
+        </li>
+        <li>
             <Link to="/LetsTalk">Let's Talk</Link>
         </li>
       </ul>

@@ -51,3 +51,9 @@ code {
 .btn:hover{
   background: rgba(255,255,255,.2);
 }
+@media screen and max-width(1200px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+}

@@ -3,6 +3,8 @@
     height: 476px;
     background: linear-gradient(233deg, #D71489 -7.04%, #004788 100%);
     opacity: 0.89;
+    position: relative;
+    top: 80px;
 }
 
 .studyimg img{
@@ -13,8 +15,8 @@
 
 .studyimagecontent h2 {
     position: absolute;
-    top: 104px;
-    left: 377px;
+    top: 124px;
+    left: 334px;
     width: 900px;
     font-family: 'Montserrat';
     font-style: normal;

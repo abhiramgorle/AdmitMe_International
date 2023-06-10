@@ -8,7 +8,7 @@ const Second = () => {
     AOS.init();
   }, [])
   return (
-    <div className='secondp'>
+    <div className='secondp' >
       <div data-aos="fade-up" data-aos-easing="ease-in-out" className='Whowearemain'>
         <div className='whowepic'>
             <img src={whopic} alt='WhoWeArePic'></img>

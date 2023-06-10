@@ -3,6 +3,8 @@
     height: 476px;
     background: linear-gradient(233deg, #D71489 -7.04%, #004788 100%);
     opacity: 0.89;
+    position: relative;
+    top:80px;
 }
 
 .howwedoimg img{

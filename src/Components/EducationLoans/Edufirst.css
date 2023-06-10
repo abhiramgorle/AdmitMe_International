@@ -1,0 +1,90 @@
+.edufirst {
+    width: 100%;
+    height: 476px;
+    /* background: linear-gradient(233deg, #D71489 -7.04%, #004788 100%);
+    opacity: 0.89; */
+    position: relative;
+    top: 80px;
+}
+
+.eduimg img{
+        width: 100%;
+        height: 476px;
+        opacity: 1;
+}
+.eduimagecontent {
+    position: absolute;
+    top: -70px;
+    left: -331px;
+}
+.eduimagecontent h2 {
+    position: absolute;
+    top: 153px;
+    left: 354px;
+    width: 900px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
+}
+.eduimagecontent p {
+    position: absolute;
+    top: 280px;
+    left: 583px;
+    width: 402px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
+}
+
+.eloanservices {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    width: 69%;
+    height: 250px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+
+.eloanservices img{
+    max-width: 250px;
+    max-height: 200px;
+}
+.eservice {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 244px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.eservice p{
+    color: white;
+}
+.eservice p:hover{
+    color: #e0263c;
+    cursor: pointer;
+}
+.serred{
+    background-color: #e0263c;
+}
+.serred  p:hover{
+    color: #004fa2;
+    cursor: pointer;
+}
+.serblue{
+    background-color: #004fa2;
+}

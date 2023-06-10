@@ -3,7 +3,7 @@
     width: 1010px;
     height: 250px;
     position: absolute;
-    top: 568px;
+    top: 665px;
     left: 260px;
     display: flex;
 }
@@ -75,4 +75,75 @@ color: #FFFFFF;
 }
 .fourfour{
     width:250px;
+}
+
+.fourbelow {
+    width: 75%;
+    height: 180px;
+    background-color: hsl(353, 75%, 51%);
+    border-radius: 40px;
+    position: relative;
+    top: 977px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.fourbelow h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: -4px 4px 2px rgba(0,0,0,0.6);
+    margin-block-end: 0rem;
+    position: relative;
+    top: 10px;
+    left: 45px;
+
+}
+.fourbelow p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    position: relative;
+    top: -15px;
+}
+.fourbelowbtn {
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+.fourbelow button {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 240px;
+    border: none;
+    height: 70px;
+}
+
+@media screen and (max-width:1200px) {
+    .four {
+        background-color: #E0263C;
+        width: 80%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fourp {
+        width: 240px;
+        height: 100px;
+        position: relative;
+        top: 126px;
+        padding-left: 14px;
+    }
+    
+    
 }

@@ -7,6 +7,8 @@ import ScrollToTop from "./Components/ScrollToTop";
 import LetsTalk from "./routes/LetsTalk";
 import HowWeDo from "./routes/HowWeDo";
 import StudyDest from "./routes/StudyDest";
+import Eduloans from "./routes/Eduloans";
+import TestPrep from "./routes/TestPrep";
 function App() {
   return (
     <div> 
@@ -18,6 +20,8 @@ function App() {
         <Route path="/LetsTalk" element={<LetsTalk />} />
         <Route path="/HowWeDo" element={<HowWeDo />} />
         <Route path="/StudyDest" element={<StudyDest />} />
+        <Route path="/Eduloans" element={<Eduloans />} />
+        <Route path="/TestPrep" element={<TestPrep />} />
       </Routes> 
       </ScrollToTop>
     </div>

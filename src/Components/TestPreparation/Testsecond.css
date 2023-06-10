@@ -1,0 +1,35 @@
+.TestSecond img{
+    width: 224px;
+    height: 80px;
+}
+.TestSecond {
+    width: 75%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: 95px;
+    left: 200px;
+}
+.Testsecondhead h4{
+        font-family: 'Montserrat';
+        text-decoration: underline;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #e0263c;
+        margin-block-end: 2rem;
+        position: relative;
+        left: -10px;
+    
+}
+.Testsecondgrid{
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 25px;
+    grid-row-gap:75px;
+    position: relative;
+    left: 100px;
+}

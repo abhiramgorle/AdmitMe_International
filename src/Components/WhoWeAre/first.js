@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './first.css'
-import earthvideo from '../../Assets/WhoWeAreVideo.mp4'
+import earthvideo from '../../Assets/WhoWeAreVideo2.mp4'
+
 const First = () => {
   return (
     <div className='heroo'>

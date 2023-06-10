@@ -12,7 +12,8 @@ const Four = () => {
         AOS.init();
       }, [])
   return (
-    <div data-aos="fade-up" data-aos-easing="ease-in-out" className='four'>
+    <div data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div  className='four'>
         <div className='fourone fourflex'>
             <div className='fouricon'>
             <img src={uni} alt='University Selection'></img>
@@ -62,6 +63,16 @@ const Four = () => {
             </div>
             <div className='fourp'>
                 <p>Visa-processing is a crucial step once your admission is confirmed. Our experts guide you at length in filling up visa applications</p>
+            </div>
+        </div>
+        </div>
+        <div className='fourbelow'>
+            
+            <div className='fourbelowh4'>
+                <h4>Apply for 2024 Spring Intakes</h4>
+            </div>
+            <div className='fourbelowbtn'>
+                <button className='2024btn'><a href='https://forms.gle/kdh97He7oAS4YGGn6'><p>Apply Now!</p></a></button>
             </div>
         </div>
       </div>

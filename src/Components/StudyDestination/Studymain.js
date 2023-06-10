@@ -1,12 +1,12 @@
 import React,{useEffect} from 'react'
 import pic1 from "../../Assets/pics/stud1.jpg"
-import pic2 from "../../Assets/pics/stud2.jpg"
-import pic3 from "../../Assets/pics/stud3.jpg"
-import pic4 from "../../Assets/pics/stud4.jpg"
+import pic2 from "../../Assets/pics/studcan.jpg"
+import pic3 from "../../Assets/pics/studuk.jpg"
+import pic4 from "../../Assets/pics/studire.jpg"
 import pic5 from "../../Assets/pics/stud5.jpg"
-import pic6 from "../../Assets/pics/stud6.jpg"
+import pic6 from "../../Assets/pics/studger.jpg"
 import pic7 from "../../Assets/pics/stud7.jpg"
-import pic8 from "../../Assets/pics/stud9.jpg"
+import pic8 from "../../Assets/pics/studaus.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "./Studymain.css"
@@ -89,7 +89,6 @@ const Studymain = () => {
                 <img src={pic8} alt='university'></img>
             </div>
         </div>
-        
     </div>
   )
 }

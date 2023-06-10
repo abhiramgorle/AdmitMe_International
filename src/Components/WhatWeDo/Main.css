@@ -1,6 +1,6 @@
 .main{
     position: absolute;
-    top: 790px;
+    top: 850px;
     width: 100%;
     height: 2125px;
 }
@@ -103,7 +103,7 @@ color: #000033;
         border: none;
         width: 535px;
         height: 415px;
-        top: -25px;
+        top: -75px;
         left: -30px;
         cursor: cursor;
 }
