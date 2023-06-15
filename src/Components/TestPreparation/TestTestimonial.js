@@ -1,11 +1,9 @@
 import React,{useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "./Testimonials.css"
+import "./TestTestimonial.css"
 import { Swiper, SwiperSlide } from "swiper/react";
 import Logo from "../../Assets/crop_photo-min.png"
-
-import { IoMdRocket,IoIosArrowRoundForward } from "react-icons/io";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/bundle";
@@ -17,7 +15,7 @@ const Testimonials = () => {
         AOS.init();
       }, [])
   return (
-    <div data-aos="fade-up" data-aos-easing="ease-in-out"  className='test'>
+    <div data-aos="fade-up" data-aos-easing="ease-in-out"  className='testtest'>
         <Container  className='cont'>
             <Row className='head'>
                 <h2>Testimonial</h2>
@@ -199,22 +197,7 @@ const Testimonials = () => {
             </div>
         </SwiperSlide>
       </Swiper>
-      <div className='testibelow'>
-            
-
-            <div className='testibelowh4'>
-                <span><h4>Immigration To </h4></span>
-                <span className='bigiii'><h4>CANADA </h4></span>
-            </div>
-            <div className='testibelowbtn'>
-                
-                <button className='2024btn'>
-                <div className='rocketbtn'><IoMdRocket  size={30} style = {{color:'#004fa2'}} /></div>
-                <a href='/Immigrate'><p>Know More!</p></a>
-                <IoIosArrowRoundForward  size={30} style = {{color:'#004fa2'}} /></button>
-                
-            </div>
-        </div>
+      
     </div>
   )
 }

@@ -6,6 +6,7 @@ import visa from "../../Assets/icons/visa.png"
 import edu from "../../Assets/icons/education.png"
 import uni from"../../Assets/icons/graduation.png"
 import test from "../../Assets/icons/notes.png"
+import { IoMdRocket,IoIosArrowRoundForward } from "react-icons/io";
 
 const Four = () => {
     useEffect(() => {
@@ -68,11 +69,20 @@ const Four = () => {
         </div>
         <div className='fourbelow'>
             
+
             <div className='fourbelowh4'>
-                <h4>Apply for 2024 Spring Intakes</h4>
+                <span><h4>Apply for </h4></span>
+                <span className='bigiii'><h4>2024</h4></span>
+                <span><h4>Intakes!!</h4></span>
             </div>
             <div className='fourbelowbtn'>
-                <button className='2024btn'><a href='https://forms.gle/kdh97He7oAS4YGGn6'><p>Apply Now!</p></a></button>
+                {/* <Link to='/contact' className='btn'> <p className='btntext'>Contact Now</p></Link> */}
+                <button className='2024btn'>
+                <div className='rocketbtn'><IoMdRocket  size={30} style = {{color:'#004fa2'}} /></div>
+                <a href='https://forms.gle/kdh97He7oAS4YGGn6'><p>Apply Now!</p></a>
+                <IoIosArrowRoundForward  size={30} style = {{color:'#004fa2'}} /></button>
+                {/* <Link to='/Who We Are' className='btn'><p className='btntext'>Learn More</p></Link> */}
+                
             </div>
         </div>
       </div>

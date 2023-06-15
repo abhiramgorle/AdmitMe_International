@@ -2,7 +2,7 @@
     width: 900px;
     height: 700px;
     position: absolute;
-    top: 3300px;
+    top: 4300px;
     left: 300px;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,7 @@ padding-left: 158px;
 }
 
 p.getsbtntext {
-    color: #e0263c;
+    color: var(--primary-red-color);
     top: 245px;
 }
 .resttwo p.getsbtntext {
@@ -124,7 +124,7 @@ p.getsbtntext {
 }
 .resttwo {
     width: 307px;
-    background-color: #e0263c;
+    background-color: var(--primary-red-color);
     height: 309px;
     display: flex;
     flex-direction: column;
@@ -147,14 +147,14 @@ a.getsbtn1 {
     background-color: white;
     width: 138px;
     height: 47px;
-    border: 1px solid #E0263C;
+    border: 1px solid var(--primary-red-color);
     border-radius: 5px;
     left: 96px;
 }
 p.getsbtntext1 {
     padding-left: 8px;
     top: 0px;
-    color: #e0263c;
+    color: var(--primary-red-color);
 }
 p.getsbtntext2 {
     padding-left: 8px;
@@ -164,7 +164,7 @@ p.getsbtntext2 {
 p.getsbtntext3 {
     padding-left: 8px;
     top: 0px;
-    color: #e0263c;
+    color: var(--primary-red-color);
 }
 a.getsbtn3{
     position: absolute;
@@ -172,7 +172,7 @@ a.getsbtn3{
     /* background-color: white; */
     width: 138px;
     height: 47px;
-    border: 1px solid #E0263C;
+    border: 1px solid var(--primary-red-color);
     border-radius: 5px;
     left: 766px;
 }

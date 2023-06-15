@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Edufirst.css"
-import edu from "../../Assets/pics/eloans.png"
+import edu from "../../Assets/pics/eloans.jpeg"
 import eser1 from "../../Assets/pics/eservice1.jpg"
 import eser2 from "../../Assets/pics/eservice2.png"
 import eser3 from "../../Assets/pics/eservice3.jpg"

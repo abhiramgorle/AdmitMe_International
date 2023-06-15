@@ -1,9 +1,9 @@
-.test{
+.testtest{
     position: absolute;
 width: 1055px;
 height: 536px;
 left: 236px;
-top: 3408px;
+top: 2308px;
 }
 .cont{
     display: flex;
@@ -51,7 +51,7 @@ letter-spacing: 0.2px;
 color: #737373;
 
 }
-.swiper-client-msg { display: flex; flex-direction: column; width: 450px; height: 102px; }
+.swiper-client-msg { display: flex; flex-direction: column; width: 450px; height: 102px}
 .swiper.swiper-initialized.swiper-horizontal.mySwiper 
 { 
     height: 332px; width: 900px; top: 167px; 
@@ -65,7 +65,7 @@ color: #737373;
   .swiper-slide {
     text-align: center;
     font-size: 20px;
-    /* background: var(--primary-red-color); */
+    background: rgb(204, 18, 18)215, 46, 46);
   
     display: flex;
     justify-content: center;
@@ -89,10 +89,11 @@ height: 355px;
 border: 1px solid #EFF0F7;
 box-shadow: 0px 5px 14px rgba(8, 15, 52, 0.04);
 border-radius: 20px;
+top: -127px;
 
 }
 .swiper-button-prev {
-    color: var(--primary-red-color); 
+    color: red; 
 }
 
 .swiper-button-next {
@@ -124,10 +125,10 @@ p.testname {
     margin-block-start: 0px;
 }
 
-.testibelow{
+.testibelow {
     width: 110%;
     height: 220px;
-    background-color:var(--primary-red-color);
+    background-color: hsl(353, 75%, 51%);
     border-radius: 40px;
     position: relative;
     left: -34px;

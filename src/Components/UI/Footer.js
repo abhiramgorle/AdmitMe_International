@@ -9,7 +9,7 @@ import {AiFillFacebook,AiFillLinkedin,AiFillInstagram} from 'react-icons/ai'
 
 const Footer = ({ position }) => {
     
-    const footerStyle ={position: "absolute", width: "100%",height: "390px",top:"3970px"}
+    const footerStyle ={position: "absolute", width: "100%",height: "390px",top:"4800px"}
     if (position === 'Letstalk') {
         footerStyle.top = "1190px";
     }
@@ -28,6 +28,9 @@ const Footer = ({ position }) => {
     if(position==='EduLoans'){
         footerStyle.top = "2145px";
     }
+    if(position==='Immigrate'){
+        footerStyle.top = "1745px";
+    }
   return (
     <div  className='footer' style={footerStyle}>
         <div className='footer-first'>
@@ -39,7 +42,7 @@ const Footer = ({ position }) => {
                         </h3>
                     </Col>
                     <Col md = {6} className='col2'>
-                    <Link to='/LetsTalk' className='btn'> <p className='btntext'>Contact Us</p></Link>
+                    <Link to='/LetsTalk' className='footbtn'> <p className='footbtntext'>Contact Us</p></Link>
                     </Col>
                 </Row>
             </Container>
@@ -83,16 +86,16 @@ const Footer = ({ position }) => {
             </div>
             <div className='sb_footer-links_div3'>
                 <h4>Branches</h4>
-                <p>Bangalore</p>
+                <p>Visakhapatnam</p>
                 <p>Hyderabad</p>
-                <p>United Kingdom</p>
+                <p>Bangalore</p>
             </div>
             <div className='sb_footer-links_div4'>
                 <h4>Regional Office</h4>
                 <div className='Phone'>
                     <div className='phonesvg'><FaPhoneAlt size={20} style = {{color:'#004FA2',marginRight:'2rem'}} /></div>
                     <div className='phoneo'>
-                    <FaPhoneAlt size={20} style = {{color:'#e0263c',marginRight:'2rem'}} />
+                    <FaPhoneAlt size={0} style = {{color:'#d50032',marginRight:'2rem'}} />
                     <div>
                         <p></p>
                         <a href="tel:+918885618111">(+91) 8885618111</a>
@@ -100,7 +103,7 @@ const Footer = ({ position }) => {
                     <div className='svgloc'><FaLocationArrow size={20} style = {{color:'#004FA2',marginRight:'2rem'}} /></div>
                     </div>
                     <div className='Location'>
-                    <FaLocationArrow size={20} style = {{color:'#e0263c',marginRight:'2rem'}} />
+                    <FaLocationArrow size={0} style = {{color:'#d50032',marginRight:'2rem'}} />
                     <div>
                         <p>Day & Night Hospital Road,Rama Talkies, Visakhapatnam – 530016,Andhra Pradesh (INDIA)</p>
                     </div>

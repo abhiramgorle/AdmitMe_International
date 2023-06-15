@@ -9,6 +9,7 @@ import HowWeDo from "./routes/HowWeDo";
 import StudyDest from "./routes/StudyDest";
 import Eduloans from "./routes/Eduloans";
 import TestPrep from "./routes/TestPrep";
+import Immigrate from "./routes/Immigrate";
 function App() {
   return (
     <div> 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/HowWeDo" element={<HowWeDo />} />
         <Route path="/StudyDest" element={<StudyDest />} />
         <Route path="/Eduloans" element={<Eduloans />} />
+        <Route path="/Immigrate" element={<Immigrate />} />
         <Route path="/TestPrep" element={<TestPrep />} />
       </Routes> 
       </ScrollToTop>

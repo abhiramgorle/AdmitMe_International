@@ -8,12 +8,16 @@ import whowe from "../../Assets/study-abroad-animate.svg"
 import "./HomeWho.css"
 import icon1 from "../../Assets/icons/homewho1.png"
 import icon2 from "../../Assets/icons/homewho2.png"
+import Sparkle from 'react-sparkle'
+
+import { IoMdRocket,IoIosArrowRoundForward } from "react-icons/io";
 const HomeWho = () => {
     useEffect(() => {
         AOS.init();
       }, [])
   return (
-    <Container data-aos="fade-up" data-aos-easing="ease-in-out" className='whoweare'>
+    <div>
+        <Container data-aos="fade-up" data-aos-easing="ease-in-out" className='whoweare'>
         <Row className='row1'>
             <div className='maincontent'>
                 <h2>Who We Are</h2>
@@ -49,8 +53,27 @@ const HomeWho = () => {
             </Col>
 
         </Row>
+        
 
     </Container>
+    <div className='whobelow'>
+    <Sparkle minSize={10} maxSize={10}flicker={true}/>
+
+    <div className='whobelowh4'>
+        <span><h4>Get Secured/UnSecured </h4></span>
+        <span className='bigiii'><h4>Study Loans</h4></span>
+        <span><h4>Instantly!!</h4></span>
+    </div>
+    <div className='whobelowbtn'>
+        
+        <button className='2024btn'>
+        <div className='rocketbtn'><IoMdRocket  size={30} style = {{color:'#004fa2'}} /></div>
+        <a href='/EduLoans'><p>Apply Now!</p></a>
+        <IoIosArrowRoundForward  size={30} style = {{color:'#004fa2'}} /></button>
+        
+    </div>
+</div>
+    </div>
   )
 }
 

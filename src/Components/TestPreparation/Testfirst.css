@@ -21,31 +21,16 @@
     position: absolute;
     top: 153px;
     left: 394px;
-    width: 500px;
+    width: 600px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 70px;
-    line-height: 65px;
+    font-size: 100px;
+    line-height: 85px;
     text-align: center;
     letter-spacing: 0.2px;
     text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
     color: white;
-}
-.testimagecontent p {
-    position: absolute;
-    top: 330px;
-    left: 453px;
-    width: 402px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 30px;
-    color: black;
-    text-align: center;
-    letter-spacing: 0.2px;
-    text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.24);
 }
 
 .eloanservices {

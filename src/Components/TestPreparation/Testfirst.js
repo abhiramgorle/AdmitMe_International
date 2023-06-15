@@ -9,7 +9,6 @@ const StudyFirst = () => {
         </div>
         <div className='testimagecontent'>
             <h2> Score More With Us</h2>
-            <p>Test Preparation Made Easy</p>
         </div>
     </div>
   )

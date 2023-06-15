@@ -1,0 +1,245 @@
+.immican{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    /* background-color: black; */
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+}
+.immihead {
+    width: 90%;
+    /* background-color: blue; */
+    height: 25%;
+    position: relative;
+    top: 110px;
+    left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.immiheadname {
+    width: 40%;
+    /* background: black; */
+    height: 80%;
+    position: relative;
+    top: 88px;
+    left: 16px;
+}
+.immiheadimg{
+    /* background: black; */
+    width: 43%;
+    height: 88%;
+    position: relative;
+    top: -29px;
+    left: 230px;
+}
+.immiheadimg img{
+    width: 600px;
+}
+.head1{
+    position: relative;
+    max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+
+}
+.head1 h4{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #004fa2;
+        width: 650px;
+        text-transform:uppercase;
+        margin-block-end: 0em;
+        margin-block-start: 0em;
+}
+.head2 h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    text-transform: uppercase;
+    margin-block-end: 1em;
+    margin-block-start: 0em;
+    width: 570px;
+}
+
+.immiheadname  h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 610;
+    font-size: 5.3rem;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    width: 700px;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+.head1:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    background: red;
+}
+
+.immican .imgbtnhome{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 7px 0px;
+gap: 20px;
+width: 3000px;
+height: 48px;
+}
+
+.immican .imgbtnhome .imgbtn{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1px 1px;
+width: 150px;
+height: 48px;
+background: #E0263C;
+border-radius: 37px;
+border-style: none;
+}
+
+.immican .imgbtnhome .imgbtn-light{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1px 1px;
+width: 150px;
+height: 48px;
+background: #004FA2;
+border-radius: 37px;
+}
+
+.immican .imgbtnhome .imgbtntext{
+    width: 120px;
+height: 3px;
+text-transform:capitalize;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.6px;
+color: #FFFFFF;
+}
+
+
+
+/* services section */
+.immiser {
+    width: 80%;
+    height: 1000px;
+    position: relative;
+    top: -10px;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.immiserhead {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 15%;
+}
+
+.immisermain {
+    width: 93%;
+    height: 750px;
+    position: relative;
+    top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: -10px;
+    grid-row-gap: 3%;
+}
+.immiservice {
+    display: flex;
+    flex-direction: column;
+}
+
+.immiservice img{
+    width: 350px;
+    position: relative;
+    top: 5px;
+    left: 19px;
+}
+
+.immiservice h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 1.6rem;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    width: 318px;
+    /* text-transform: uppercase; */
+    line-height: 29px;
+    position: relative;
+    top: 5px;
+    left: 46px;
+    margin-block-end: 0em;
+}
+.immiservice p{
+    max-width: 80%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: grey;
+    text-align:left;
+    position: relative;
+    left: 46px;
+}
+span.serheadred {
+    padding-left: 10px;
+}
+.sername {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 25%;
+}
+.sername h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0em;
+}
+p.serp {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    text-transform: uppercase;
+    margin-block-end: 1em;
+    margin-block-start: 0em;
+    position: absolute;
+    top: 130px;
+}

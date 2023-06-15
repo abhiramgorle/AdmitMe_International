@@ -16,6 +16,8 @@
     "react-parallax-tilt": "^1.7.143",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "react-sparkle": "^2.0.0",
+    "react-tsparticles": "^2.10.1",
     "sass": "^1.62.1",
     "swiper": "^9.3.2",
     "typewriter-effect": "^2.20.1",

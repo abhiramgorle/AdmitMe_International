@@ -13,6 +13,9 @@ h1,p,a{
 }
 
 body {
+  --primary-red-color: #d50032;
+  /* #d5001b */
+  --primary-blue-color: #004fa2;
   margin: 0;
   font-family:'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

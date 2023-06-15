@@ -6,6 +6,8 @@ import two from "../../Assets/icons/evaluation 1.png"
 import three from "../../Assets/icons/university 1.png"
 import four from "../../Assets/icons/two.apng"
 import five from "../../Assets/icons/resume 1.png"
+
+import { IoMdRocket,IoIosArrowRoundForward } from "react-icons/io";
 import six from "../../Assets/icons/visa (1) 1.png"
 const HomeHow = () => {
   return (
@@ -52,6 +54,23 @@ const HomeHow = () => {
             </Tilt>
 
         </div>
+        <div className='homehowbelow'>
+            
+
+    <div className='homehowbelowh4'>
+        <span><h4>Get your desired</h4></span>
+        <span className='bigiii'><h4>Scores</h4></span>
+        <span><h4>With Us!!</h4></span>
+    </div>
+    <div className='homehowbelowbtn'>
+        
+        <button className='2024btn'>
+        <div className='rocketbtn'><IoMdRocket  size={30} style = {{color:'#004fa2'}} /></div>
+        <a href='/TestPrep'><p>Register Now!</p></a>
+        <IoIosArrowRoundForward  size={30} style = {{color:'#004fa2'}} /></button>
+        
+    </div>
+</div>
     </div>
   )
 }
