@@ -18,7 +18,7 @@
         font-size: 30px;
         line-height: 57px;
         letter-spacing: 0.2px;
-        color: #e0263c;
+        color: var(--primary-red-color);
         margin-block-end: 2rem;
         position: relative;
         left: -10px;
@@ -37,7 +37,7 @@
 .testabout{
     width: 95%;
     height: 250px;
-    background-color: #e0263c;
+    background-color: var(--primary-red-color);
     position: relative;
     left:50px;
     top:50px;
@@ -131,4 +131,28 @@ p.serp {
     margin-block-start: 0em;
     position: absolute;
     top: 130px;
+}
+
+
+.testserhead .sername::before{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: -430px;
+    background: red;
+
+}
+.testserhead .sername::after{
+content: " ";
+display: block;
+height: 2px;
+width: 300px;
+position: absolute;
+top: 55%;
+left: 650px;
+background:red;
+
 }

@@ -6,7 +6,7 @@ import HomeWho from '../Components/HomePage/HomeWho'
 import Testimonials from '../Components/HomePage/Testimonials'
 import Getintouch from '../Components/HomePage/Getintouch'
 import Four from '../Components/HomePage/Four'
-import HomeHow from '../Components/HomePage/HomeHow'
+import HomeHow1 from '../Components/HomePage/HomeHow1'
 const Home = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ const Home = () => {
       <Video />
       <Four />
       <HomeWho />
-      <HomeHow />
+      <HomeHow1 />
       <Testimonials />
       <Getintouch />
       <Footer />

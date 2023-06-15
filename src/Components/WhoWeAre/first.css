@@ -43,7 +43,7 @@
 }
 .heroo span{ 
         padding-top: 15px;
-        color: #e0263c;
+        color: var(--primary-red-color);
     
 }
 
@@ -64,7 +64,7 @@ align-items: center;
 padding: 1px 1px;
 width: 150px;
 height: 48px;
-background: #E0263C;
+background: var(--primary-red-color);
 border-radius: 37px;
 border-style: none;
 }

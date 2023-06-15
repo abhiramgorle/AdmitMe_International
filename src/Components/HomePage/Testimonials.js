@@ -4,8 +4,9 @@ import 'aos/dist/aos.css';
 import "./Testimonials.css"
 import { Swiper, SwiperSlide } from "swiper/react";
 import Logo from "../../Assets/crop_photo-min.png"
-
-import { IoMdRocket,IoIosArrowRoundForward } from "react-icons/io";
+import Sparkle from 'react-sparkle'
+import { IoIosArrowRoundForward } from "react-icons/io";
+import {MdFlightTakeoff} from "react-icons/md";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/bundle";
@@ -25,7 +26,7 @@ const Testimonials = () => {
             </Row>
         </Container>
       <Swiper style={{
-  "--swiper-pagination-color": "#e0263c",
+  "--swiper-pagination-color": "#d50032",
   "--swiper-pagination-bullet-inactive-color": "#999999",
   "--swiper-pagination-bullet-inactive-opacity": "1",
   "--swiper-pagination-bullet-size": "7px",
@@ -199,17 +200,16 @@ const Testimonials = () => {
             </div>
         </SwiperSlide>
       </Swiper>
-      <div className='testibelow'>
-            
-
-            <div className='testibelowh4'>
+      <div className='testimbelow'>
+      <Sparkle minSize={10} maxSize={10}flicker={true}/>
+            <div className='testimbelowh4'>
                 <span><h4>Immigration To </h4></span>
                 <span className='bigiii'><h4>CANADA </h4></span>
             </div>
-            <div className='testibelowbtn'>
+            <div className='testimbelowbtn'>
                 
                 <button className='2024btn'>
-                <div className='rocketbtn'><IoMdRocket  size={30} style = {{color:'#004fa2'}} /></div>
+                <div className='rocketbtn'><MdFlightTakeoff  size={30} style = {{color:'#004fa2'}} /></div>
                 <a href='/Immigrate'><p>Know More!</p></a>
                 <IoIosArrowRoundForward  size={30} style = {{color:'#004fa2'}} /></button>
                 

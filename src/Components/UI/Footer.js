@@ -9,12 +9,12 @@ import {AiFillFacebook,AiFillLinkedin,AiFillInstagram} from 'react-icons/ai'
 
 const Footer = ({ position }) => {
     
-    const footerStyle ={position: "absolute", width: "100%",height: "390px",top:"4800px"}
+    const footerStyle ={position: "absolute", width: "100%",height: "390px",top:"5090px"}
     if (position === 'Letstalk') {
         footerStyle.top = "1190px";
     }
     if(position=== 'WhoWeAre'){
-        footerStyle.top = "2006px";
+        footerStyle.top = "1956px";
     }
     if(position==='WhatWeDo'){
         footerStyle.top = "3106px";
@@ -29,7 +29,10 @@ const Footer = ({ position }) => {
         footerStyle.top = "2145px";
     }
     if(position==='Immigrate'){
-        footerStyle.top = "1745px";
+        footerStyle.top = "1645px";
+    }
+    if(position==='TestPrep'){
+        footerStyle.top = "2895px";
     }
   return (
     <div  className='footer' style={footerStyle}>

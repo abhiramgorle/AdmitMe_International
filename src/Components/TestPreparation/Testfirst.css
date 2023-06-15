@@ -61,11 +61,11 @@
     color: white;
 }
 .eservice p:hover{
-    color: #e0263c;
+    color: var(--primary-red-color);
     cursor: pointer;
 }
 .serred{
-    background-color: #e0263c;
+    background-color: var(--primary-red-color);
 }
 .serred  p:hover{
     color: #004fa2;

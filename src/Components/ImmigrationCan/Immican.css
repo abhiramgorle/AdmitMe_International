@@ -243,3 +243,25 @@ p.serp {
     position: absolute;
     top: 130px;
 }
+.sername::before{
+        content: " ";
+        display: block;
+        height: 2px;
+        width: 400px;
+        position: absolute;
+        top: 55%;
+        left: -430px;
+        background: red;
+
+}
+.sername::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 450px;
+    position: absolute;
+    top: 55%;
+    left: 450px;
+    background: red;
+
+}

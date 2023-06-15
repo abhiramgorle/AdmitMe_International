@@ -1,5 +1,5 @@
 import React from 'react'
-import howwedo from "../../Assets/pics/howwedo.png"
+import howwedo from "../../Assets/pics/howwedo1.jpg"
 import "./Howfirst.css"
 const Howfirst = () => {
   return (

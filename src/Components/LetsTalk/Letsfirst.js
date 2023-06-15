@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Letsfirst.css"
-import lets from "../../Assets/pics/lets.png"
+import lets from "../../Assets/pics/lets1.jpg"
 const Letsfirst = () => {
   return (
     <div className='letsfirst'>

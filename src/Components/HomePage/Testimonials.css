@@ -3,7 +3,7 @@
 width: 1055px;
 height: 536px;
 left: 236px;
-top: 3408px;
+top: 3658px;
 }
 .cont{
     display: flex;
@@ -124,9 +124,9 @@ p.testname {
     margin-block-start: 0px;
 }
 
-.testibelow{
+.testimbelow{
     width: 110%;
-    height: 220px;
+    height: 300px;
     background-color:var(--primary-red-color);
     border-radius: 40px;
     position: relative;
@@ -137,7 +137,7 @@ p.testname {
     top: 250px;
 }
 
-.testibelow h4 {
+.testimbelow h4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -152,7 +152,7 @@ p.testname {
     left: 75px;
 
 }
-.testibelow p{
+.testimbelow p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -165,13 +165,13 @@ p.testname {
     width: 125px;
     left: 4px;
 }
-.testibelowbtn {
+.testimbelowbtn {
     position: relative;
-    left: -143px;
-    top: 73px;
+    left: -152px;
+    top: 115px;
 }
-.testibelowh4 { width: 862px; display: flex; flex-direction: column; align-items: baseline; height: 93px; position: relative; top: -80px;left: 80px; }
-.testibelow button {
+.testimbelowh4 { width: 862px; display: flex; flex-direction: column; align-items: baseline; height: 93px; position: relative; top: -5px;left: 50px;  }
+.testimbelow button {
     background-color: #ffffff;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
@@ -183,13 +183,13 @@ p.testname {
     grid-template-columns: auto auto auto;
     align-items: center;
 }
-.testibelow span {padding-left: 1em;  }
-.testibelow span.bigiii {  height: 269px;
+.testimbelow span {padding-left: 1em;  }
+.testimbelow span.bigiii {  height: 269px;
     padding-bottom: 60px;}
- .testibelow .bigiii h4{
+ .testimbelow .bigiii h4{
     font-size: 90px;
 }
-.testibelow .rocketbtn{
+.testimbelow .rocketbtn{
     width: 35px;
     height: 35px;
     background-color: rgba(0, 79, 162, 0.32);

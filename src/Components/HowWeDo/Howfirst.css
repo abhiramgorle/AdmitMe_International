@@ -10,13 +10,13 @@
 .howwedoimg img{
         width: 100%;
         height: 476px;
-        opacity: 0.33;
+        opacity: 0.83;
 }
 
 .howwedoimagecontent h2 {
     position: absolute;
     top: 110px;
-    left: 375px;
+    left: 95px;
     width: 845px;
     font-family: 'Montserrat';
     font-style: normal;

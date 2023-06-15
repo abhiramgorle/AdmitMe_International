@@ -7,6 +7,7 @@ import edu from "../../Assets/icons/education.png"
 import uni from"../../Assets/icons/graduation.png"
 import test from "../../Assets/icons/notes.png"
 import { IoMdRocket,IoIosArrowRoundForward } from "react-icons/io";
+import Sparkle from 'react-sparkle'
 
 const Four = () => {
     useEffect(() => {
@@ -68,8 +69,7 @@ const Four = () => {
         </div>
         </div>
         <div className='fourbelow'>
-            
-
+        <Sparkle minSize={10} maxSize={10}flicker={true}/>
             <div className='fourbelowh4'>
                 <span><h4>Apply for </h4></span>
                 <span className='bigiii'><h4>2024</h4></span>
@@ -79,7 +79,7 @@ const Four = () => {
                 {/* <Link to='/contact' className='btn'> <p className='btntext'>Contact Now</p></Link> */}
                 <button className='2024btn'>
                 <div className='rocketbtn'><IoMdRocket  size={30} style = {{color:'#004fa2'}} /></div>
-                <a href='https://forms.gle/kdh97He7oAS4YGGn6'><p>Apply Now!</p></a>
+                <a href='https://forms.gle/C3es4MK1wJf23dbH7' target="_blank" rel="noreferrer"><p>Apply Now!</p></a>
                 <IoIosArrowRoundForward  size={30} style = {{color:'#004fa2'}} /></button>
                 {/* <Link to='/Who We Are' className='btn'><p className='btntext'>Learn More</p></Link> */}
                 

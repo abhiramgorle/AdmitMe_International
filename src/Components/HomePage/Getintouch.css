@@ -2,7 +2,7 @@
     width: 900px;
     height: 700px;
     position: absolute;
-    top: 4300px;
+    top: 4590px;
     left: 300px;
     display: flex;
     flex-direction: column;
@@ -151,10 +151,32 @@ a.getsbtn1 {
     border-radius: 5px;
     left: 96px;
 }
+.getsbtn1:hover{
+        background-color: var(--primary-red-color);
+        border: 1px solid;
+        border-color:#ffffff ;
+   
+}
+.getsbtn3:hover{
+    background-color: var(--primary-red-color);
+    border: 1px solid;
+    border-color:#ffffff ;
+
+}
 p.getsbtntext1 {
     padding-left: 8px;
     top: 0px;
     color: var(--primary-red-color);
+}
+.getsbtntext1:hover{
+    padding-left: 8px;
+    top: 0px;
+    color: #ffffff;
+}
+.getsbtntext3:hover{
+    padding-left: 8px;
+    top: 0px;
+    color: #ffffff;
 }
 p.getsbtntext2 {
     padding-left: 8px;
@@ -184,5 +206,5 @@ a.getsbtn2 {
     height: 47px;
     border: 1px solid #ffffff;
     border-radius: 5px;
-    left: 410px;
+    left: 80px;
 }

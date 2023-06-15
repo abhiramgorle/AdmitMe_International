@@ -9,7 +9,7 @@ const Navbar = () => {
     const[click,setClick] = useState(false)
     const handleClick=() =>setClick(!click)
     const styleObj = {
-      color:'#e0263c',fontSize:14,fontWeight: 'bold'}
+      color:'#d50032',fontSize:14,fontWeight: 'bold'}
 
     const[color,setColor] = useState(false)
       const changeColor=() =>{
