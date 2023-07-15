@@ -1,25 +1,19 @@
-import React,{useEffect} from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react'
 import "./TestTestimonial.css"
 import { Swiper, SwiperSlide } from "swiper/react";
-import Logo from "../../Assets/crop_photo-min.png"
-// Import Swiper styles
+import Logo from "../../Assets/crop_photo-min.png";
 import "swiper/css";
 import "swiper/css/bundle";
 import {Autoplay,Pagination} from "swiper";
 import { Container, Row } from 'react-bootstrap';
 
 const Testimonials = () => {
-    useEffect(() => {
-        AOS.init();
-      }, [])
+   
   return (
-    <div data-aos="fade-up" data-aos-easing="ease-in-out"  className='testtest'>
+    <div  className='testtest'>
         <Container  className='cont'>
-            <Row className='head'>
+            <Row className='head1'>
                 <h2>Testimonial</h2>
-                <p>Don’t Believe us...Then Hear it from our Students..</p>
             </Row>
         </Container>
       <Swiper style={{
@@ -35,7 +29,7 @@ const Testimonials = () => {
           clickable: true,
         }}
         autoplay={{
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
           }}
         modules={[Autoplay,Pagination]}

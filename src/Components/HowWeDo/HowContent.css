@@ -1,128 +1,118 @@
-.howmain{
-    position: absolute;
-    top: 1650px;
-    width: 100%;
-    height: 2125px;
-}
 
-.University1, .soplor1, .visaprocess1 {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    padding: 14px 240px;
-}
-
-.howcontent {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-}
-
-.howmain h2{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 57px;
-/* or 142% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.2px;
-
-color: #000033;
-margin-block-end: 0rem;
-}
-.howmain p{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.2px;
-color: #000033;
-}
-.howpic{
-    width: 460px;
-    margin: 20px 96px 0px 96px;
-    position: relative;
-    float: left;
-    border-radius :  213px 0px 218px 216px;
-    overflow: hidden;
-    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-}
-
-.howpic img{
-    position: absolute;
-        border: none;
-        width: 535px;
-        height: 415px;
-        top: -100px;
-        left: -30px;
-        cursor: cursor;
+@media  screen and (max-width:3000px) {
+    .howmain{
+        position: relative;
+        width: 100%;
+    }
     
-}
-.TestPreparation1, .foreignlang1, .educationloans1 {
+    .University1, .soplor1, .visaprocess1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top: 100px;
+        width: 70%;
+        left: 20%;
+    }
+    .University1.nogap{
+        top: 40px;
+    }
+    
+    .howcontent {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    top: 35px;
+    }
+    
+    .howmain h2{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    /* or 142% */
+    
     display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    top: 390px;
-    left: -210px;
-}
-.soplor1 {
-    top: 741px;
-}
-.educationloans1 {
-    top: 725px;
-}
-
-.visaprocess1 {
-    top: 1330px;
-}
-.foreignlang1{
-    top:1130px;
-}
-.howpic-reverse{
-    width: 460px;
-    margin: 20px 96px 0px 96px;
-    position: relative;
-    float: left;
-    border-radius: 218px 216px 213px 0px;
-    overflow: hidden;
-    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-}
-
-.howpic-reverse img{
-    position: absolute;
-        border: none;
-        width: 535px;
-        height: 415px;
-        top: -78px;
-        left: -41px;
-        cursor: cursor;
-}
-
-@media  screen and (max-width:1250px) {
-    .University1.aos-init.aos-animate .soplor.aos-init.aos-animate {
-        position: absolute;
-        /* top: 5px; */
-        left: -77px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    
+    color: #000033;
+    margin-block-end: 0rem;
     }
-    .TestPreparation1.aos-init.aos-animate{
-        position: absolute;
-        /* top: 5px; */
-        left: 50px;
+    .howmain p{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000033;
+    text-align: justify;
     }
-    .educationloans1.aos-init.aos-animate {
-        position: absolute;
-    top: 1200px;
-    left: 75px;
+    .howpic{
+        width: 30%;
+        margin: 21px 96px 8px 72px;
+        position: relative;
+        float: left;
+        border-radius :  213px 0px 218px 216px;
+        overflow: hidden;
+        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        position: relative;
+        top: 59px;
+        height: 200px;
     }
+    .howpic.gapppp{
+        top: 80px;
+    }
+    .howpic img{
+        position: relative;
+    border: none;
+    width: 100%;
+    height: 100%;
+        
+    }
+    .TestPreparation1, .foreignlang1, .educationloans1 {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        top: 100px;
+        width: 70%;
+        left: 10%;
+    }
+    .TestPreparation1.marbot{
+        top: 60px;
+        margin-bottom: 20px;
+    }
+    .howpic-reverse{
+        width: 30%;
+        margin: 63px 83px 0px 96px;
+        position: relative;
+        float: left;
+        border-radius: 218px 216px 213px 0px;
+        overflow: hidden;
+        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .howpic-reverse.spacee{
+        margin: 20px 96px 0px 96px;
+        top: 45px;
+    }
+    
+    .howpic-reverse img{
+        position: relative;
+    border: none;
+    width: 100%;
+    height: 100%;
+    }
+    
     
 }

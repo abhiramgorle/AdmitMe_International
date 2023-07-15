@@ -12,8 +12,8 @@ const Hero = () => {
         <h1>WHAT <br /><span>WE</span> DO<br /></h1>
       
       <div className='btnhomeo'>
-        <Link to='/contact' className='btno'> <p className='btntexto'>Contact Now</p></Link>
-        <Link to='/WhoWeAre' className='btn-lighto'><p className='btntexto'>Learn More</p></Link>
+        <Link to='/LetsTalk' className='btno'> <p className='btntexto'>Contact Now</p></Link>
+        <Link to='/HowWeDo' className='btn-lighto'><p className='btntexto'>Learn More</p></Link>
       </div>
       </div>
     </div>

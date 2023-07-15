@@ -1,47 +1,68 @@
-import React from 'react'
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import {Link} from 'react-router-dom';
+import {Link,useLocation} from 'react-router-dom';
 import "./FooterStyles.css"
-import { FaLocationArrow, FaPhoneAlt } from 'react-icons/fa'
+// import { FaLocationArrow, FaPhoneAlt } from 'react-icons/fa'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {AiFillFacebook,AiFillLinkedin,AiFillInstagram} from 'react-icons/ai'
+import ftext from "../../Assets/pics/footertext.png"
 
 const Footer = ({ position }) => {
+    const location = useLocation();
+    const footerletsstyle = {display:"flex"};
+    if (location.pathname === '/LetsTalk') {
+        footerletsstyle.display = "none";
+    }
+    let texxt = "Let's Talk about your study abroad plans"
+    if (location.pathname === '/') {
+        footerletsstyle.display = "none";
+        document.body.style.height = "763vh";
+    }
+    const footerStyle ={position: "relative", width: "100%",height: "320px",top:"680px"}
     
-    const footerStyle ={position: "absolute", width: "100%",height: "390px",top:"5090px"}
     if (position === 'Letstalk') {
-        footerStyle.top = "1190px";
+        footerStyle.top = "140px";
+        document.body.style.height = "217vh";
     }
     if(position=== 'WhoWeAre'){
-        footerStyle.top = "1956px";
+        footerStyle.top = "186px";
+        document.body.style.height = "377vh";
     }
     if(position==='WhatWeDo'){
-        footerStyle.top = "3106px";
+        footerStyle.top = "156px";
+        document.body.style.height = "377vh";
     }
     if(position==='HowWeDo'){
-        footerStyle.top = "3705px";
+        footerStyle.top = "175px";
+        document.body.style.height = "377vh";
     }
     if(position==='StudyDest'){
-        footerStyle.top = "4345px";
+        footerStyle.top = "345px";
+        document.body.style.height = "377vh";
     }
     if(position==='EduLoans'){
-        footerStyle.top = "2145px";
+        footerStyle.top = "395px";
+        document.body.style.height = "397vh";
     }
     if(position==='Immigrate'){
-        footerStyle.top = "1645px";
+        footerStyle.top = "215px";
+        document.body.style.height = "333vh";
     }
     if(position==='TestPrep'){
-        footerStyle.top = "2895px";
+        footerStyle.top = "295px";
+        document.body.style.height = "377vh";
     }
+   
   return (
     <div  className='footer' style={footerStyle}>
         <div className='footer-first'>
             <Container className='Containero'>
-                <Row className='Rowo'>
+                <Row className='Rowo' style={footerletsstyle}>
                     <Col md = {6} className='col1'>
                         <h3>
-                        Let's Talk about your study abroad plans
+                        {texxt}
                         </h3>
                     </Col>
                     <Col md = {6} className='col2'>
@@ -53,7 +74,7 @@ const Footer = ({ position }) => {
         </div>
         <div className='sb_footer_section_padding'>
         <div className='sb_footer-links'>
-            <div className='sb_footer-links_div1'>
+            {/* <div className='sb_footer-links_div1'>
                 <h4>Company Info</h4>
                 <a href='/WhoWeAre' >
                     <p>Who We Are</p>
@@ -70,39 +91,44 @@ const Footer = ({ position }) => {
                 <a href='/TestPrep' >
                     <p>Test Prep</p>
                 </a>
-            </div>
+            </div> */}
 
             <div className='sb_footer-links_div'>
                 <h4>Head Office</h4>
                 <p>2001 Gateway Place, Suite 710,San Jose,
                     CA-95110 USA</p>
-                <span><a href='mailto:`info@admitmeinternational.com'>info@admitmeinternational.com</a></span>
+                {/* <span><a href='mailto:`info@admitmeinternational.com'>info@admitmeinternational.com</a></span> */}
 
 
             </div>
             <div className='sb_footer-links_div'>
-                <h4>Overseas Branch Office</h4>
-                <p>29 Bedford StreetCardiff, 
-                    CF24 3BZWALES, UK</p>
-                <span><a href='mailto:`uk@admitmeinternational.com'>uk@admitmeinternational.com</a></span>
+                <h4>Regional Office</h4>
+                <p>Subhavasista Enclave, 4th Floor, Above Punjab & Sindh Bank building, Day & Night Hospital Road,Rama Talkies, Visakhapatnam</p>
+                {/* <span><a href="tel:+918885618111">(+91)-888 5618 111</a></span> */}
 
             </div>
             <div className='sb_footer-links_div3'>
-                <h4>Branches</h4>
-                <p>Visakhapatnam</p>
+                <h4>Contact Us</h4>
+                {/* <FaPhoneAlt size={0} style = {{color:'#ffffff',marginRight:'2rem'}} /> */}
+                <FontAwesomeIcon icon="fa-solid fa-circle-phone" />
+                <p>+91 8885618111</p>
                 <p>Hyderabad</p>
                 <p>Bangalore</p>
             </div>
-            <div className='sb_footer-links_div4'>
+            <div className='sb_footer-links_div'>
+                <img src={ftext} alt='Fotter text' className='footertext'></img>
+
+            </div>
+            {/* <div className='sb_footer-links_div4'>
                 <h4>Regional Office</h4>
                 <div className='Phone'>
                     <div className='phonesvg'><FaPhoneAlt size={20} style = {{color:'#004FA2',marginRight:'2rem'}} /></div>
                     <div className='phoneo'>
-                    <FaPhoneAlt size={0} style = {{color:'#d50032',marginRight:'2rem'}} />
-                    <div>
-                        <p></p>
-                        <a href="tel:+918885618111">(+91) 8885618111</a>
-                    </div>
+                        <FaPhoneAlt size={0} style = {{color:'#d50032',marginRight:'2rem'}} />
+                        <div>
+                            <p></p>
+                            <a href="tel:+918885618111">(+91) 8885618111</a>
+                        </div>
                     <div className='svgloc'><FaLocationArrow size={20} style = {{color:'#004FA2',marginRight:'2rem'}} /></div>
                     </div>
                     <div className='Location'>
@@ -112,24 +138,24 @@ const Footer = ({ position }) => {
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> */}
                 
 
         </div>
-      
-    </div>
-    <div className='sb_footer-below'>
+        <div className='sb_footer-below'>
         <div className='sb_footer-made'>
             <p>AdmitMe International @ {new Date().getFullYear()}. All Right Reserved </p>
         </div>
         <div className='sb_footer-below-icons'>
-            <a href='https://www.facebook.com/AdmitMeInternational/'><AiFillFacebook size = {25} style = {{color:'#335bf5',marginRight:'1rem'}}/></a>
-            <a href='https://www.linkedin.com/company/admitme-international'><AiFillLinkedin size = {25} style = {{color:'#0077b5',marginRight:'1rem'}}/></a>
-            <a href='https://www.instagram.com/admitmeinternational/'><AiFillInstagram size = {25} style = {{color:'#E61F5A',marginRight:'1rem'}}/></a>
+            <a href='https://www.facebook.com/AdmitMeInternational/'><AiFillFacebook size = {25} style = {{color:'#ffffff',marginRight:'1rem'}}/></a>
+            <a href='https://www.linkedin.com/company/admitme-international'><AiFillLinkedin size = {25} style = {{color:'#ffffff',marginRight:'1rem'}}/></a>
+            <a href='https://www.instagram.com/admitmeinternational/'><AiFillInstagram size = {25} style = {{color:'#ffffff',marginRight:'1rem'}}/></a>
 
         </div>
 
     </div>
+    </div>
+    
     </div>
   )
 }

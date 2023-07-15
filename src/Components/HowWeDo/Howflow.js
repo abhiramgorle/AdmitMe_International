@@ -16,7 +16,6 @@ const Howflow = () => {
     <div className='howflow'>
         <div className='howhead'>
             <h2>Our Service Flow</h2>
-
         </div>
         <div className='mainflow'>
             <div className='howone'>
@@ -67,7 +66,6 @@ const Howflow = () => {
                 <div className='oneone'>
                     <img src={flow9} alt='icon'/>
                     <p>Flight Tickets Booking</p></div>
-
             </div>
 
         </div>

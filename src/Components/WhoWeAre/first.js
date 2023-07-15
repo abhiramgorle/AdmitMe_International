@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './first.css'
-import earthvideo from '../../Assets/WhoWeAreVideo2.mp4'
+import earthvideo from '../../Assets/earth4.mp4'
 
 const First = () => {
   return (
@@ -13,8 +13,8 @@ const First = () => {
         <h1>WHO <br /><span>WE</span> ARE<br /></h1>
       
       <div className='btnhomeo'>
-        <Link to='/contact' className='btno'> <p className='btntexto'>Contact Now</p></Link>
-        <Link to='/WhoWeAre' className='btn-lighto'><p className='btntexto'>Learn More</p></Link>
+        <Link to='/LetsTalk' className='btno'> <p className='btntexto'>Contact Now</p></Link>
+        <Link to='/WhatWeDo' className='btn-lighto'><p className='btntexto'>Learn More</p></Link>
       </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .header {
     position: fixed;
-    width: 100%;
-    height: 65px;
+    width: 105vw;
+    height: 95px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +12,7 @@
 
 
 .header-bg{
-    background-color: rgba(255, 255, 255, 1.8);
+    background-color: white;
     transition: .5s;
 }
 .header-bg .nav-menu a{
@@ -31,6 +31,8 @@
 .nav-menu{
     display: flex;
     padding: 0px 45px;
+    position: relative;
+    right: 20px;
 }
 
 .nav-menu li{
@@ -39,10 +41,10 @@
 }
 
 .nav-menu a{
-    font-family: 'Montserrat';
+    font-family: var(--primary-font-type);
 font-style: normal;
-font-weight: 600;
-font-size: 14px;
+font-weight: 500;
+font-size: 19px;
 line-height: 24px;
 color: #000000;
 
@@ -52,10 +54,113 @@ color: #000000;
     display: none;
 }
 
-@media screen and (max-width:1250px){
+@media screen and (max-width : 1950px){
+    .header {
+        position: fixed;
+        width: 100vw;
+        height: 95px;
+        padding: 0.5vh;
+    }
+    
+    
+    .Logo img {
+        position: fixed;
+        width: 15%;
+        max-width: 25%;
+        max-height: 100%;
+        /* top: 1%; */
+        left: 7.5%;
+    }
+    .Collapse {
+        position: relative;
+        top: 10%;
+        right: 3%;
+    }
+    .nav-menu{
+        display: flex;
+        /* padding: 5px 45px; */
+    }
+    
+    .nav-menu li{
+        padding:0 7px;  
+    }
+    
+    .nav-menu a{
+        font-family: var(--primary-font-type);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+    
+    } 
+}
+@media screen and (max-width:900px) {
     .header{
-        width: 24%;
-        height: 63px;
+        width: 100vw;
+        height: 80px;
+    }
+    .header-bg .nav-menu a{
+        color: white;
+    }
+    .Logo img{
+        position: fixed;
+    width: 296px;
+    max-width: 50%;
+    height: 50px;
+    left: 50px;
+    top: 27px;
+    }
+
+    .hamburger{
+        position:absolute;
+    top: 40px;
+    left: 13px;
+    display: flex;
+    }
+    .nav-menu{
+        visibility: hidden; 
+        position: relative; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        top: 50px;
+         /* right: 10px; */ 
+        padding: 12px 5px; 
+        text-align: center; 
+        width: 195%; height: 67%; 
+        z-index: -1; 
+        background: black;
+        }
+        
+    /* .nav-menu.active{
+        left:0
+    } */
+
+    .nav-menu.active {
+        visibility: visible;
+        position: relative;
+        top: 307px;
+        left: -250px;
+    }
+
+    .nav-menu li{
+        padding: 1rem 0;
+
+    }
+    .nav-menu a{
+        font-size: 1rem;
+        color: white;
+    }
+    
+    
+}
+
+
+@media screen and (901px <= width <= 1250px){
+    .header{
+        width: 100vw;
+        height: 95px;
     }
     .Logo img{
         position: fixed;
@@ -66,18 +171,23 @@ color: #000000;
     }
 
     .hamburger{
-        position: absolute;
+        position:absolute;
     top: 40px;
     left: 13px;
     display: flex;
     }
     .nav-menu{
-        visibility: hidden; position: absolute; flex-direction: column; justify-content: center; align-items: center; top: 0;
+        visibility: hidden; 
+        position: relative; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        top: 50px;
+        right: 90%;
          /* right: 10px; */ 
         padding: 5px 5px; text-align: center; 
-        width: 101%; height: 51vh; 
-        transition: all 0.3s ease-out 0s; 
-        z-index: -1; background: rgba(0, 0, 0);
+        width: 91%; height: 47%; 
+        z-index: -1; background: rgb(100, 76, 76);
         }
         
     /* .nav-menu.active{
@@ -85,8 +195,12 @@ color: #000000;
     } */
 
     .nav-menu.active {
-        visibility: visible; position: absolute; top: 7vh; left: 0vh;
-}
+        visibility: visible;
+        position: relative;
+        top: 329px;
+        left: -295px;
+    }
+
     .nav-menu li{
         padding: 1rem 0;
 
@@ -99,10 +213,10 @@ color: #000000;
 
 .nav-menu a:hover{
     color: #004fa2;
-    font-family: 'Montserrat';
+    font-family: var(--primary-font-type);
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 19px;
     line-height: 24px;
 }
 

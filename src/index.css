@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 .App{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  max-height: 1000vh;
+  
 
 }
 h1,p,a{
@@ -16,7 +17,7 @@ body {
   --primary-red-color: #d50032;
   /* #d5001b */
   --primary-blue-color: #004fa2;
-  margin: 0;
+  margin: -15px;
   font-family:'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,6 +25,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background:white;
   overflow-x: hidden;
+  overflow-y: auto;
+  height: 1000vh;
+  --primary-font-type: 'PT Sans Narrow';
 }
 ul{
   list-style-type: none;
@@ -54,9 +58,21 @@ code {
 .btn:hover{
   background: rgba(255,255,255,.2);
 }
-@media screen and max-width(1200px) {
+@media screen and (max-width:900px) {
   body{
     overflow-x: hidden;
   }
   
+}
+html {
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  html { font-size: 16px; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 12px; }
 }

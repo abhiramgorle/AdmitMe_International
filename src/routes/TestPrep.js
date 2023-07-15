@@ -3,7 +3,7 @@ import Navbar from '../Components/UI/Navbar'
 import Footer from '../Components/UI/Footer'
 import Testfirst from "../Components/TestPreparation/Testfirst"
 import TestSecond from '../Components/TestPreparation/TestSecond'
-import Testimonials from '../Components/TestPreparation/TestTestimonial'
+// import Testimonials from '../Components/TestPreparation/TestTestimonial'
 const TestPrep = () => {
     const positiono="TestPrep"
   return (
@@ -11,7 +11,7 @@ const TestPrep = () => {
       <Navbar />
       <Testfirst />
       <TestSecond />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer position={positiono} />
     </div>
   )

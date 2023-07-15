@@ -2,14 +2,13 @@ import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import Logo from '../../Assets/admitmelogo.png'
-
 import './Navbarstyles.css'
 
 const Navbar = () => {
     const[click,setClick] = useState(false)
     const handleClick=() =>setClick(!click)
     const styleObj = {
-      color:'#d50032',fontSize:14,fontWeight: 'bold'}
+      color:'#d50032',fontSize:17,fontWeight: 'bold'}
 
     const[color,setColor] = useState(false)
       const changeColor=() =>{
@@ -33,16 +32,17 @@ const Navbar = () => {
             <Link to="/" style={styleObj}>Home</Link>
         </li>
         <li>
-            <Link to="/WhoWeAre">Who We Are</Link>
+            <Link to="/WhoWeAre">About Us</Link>
         </li>
         <li>
-            <Link to="/WhatWeDo">What We Do</Link>
+            <Link to="/WhatWeDo">Our Services</Link>
         </li>
         <li>
             <Link to="/HowWeDo">How We Do</Link>
         </li>
         <li>
             <Link to="/StudyDest">Study Destination</Link>
+          
         </li>
         <li>
             <Link to="/Eduloans">Educational Loans</Link>

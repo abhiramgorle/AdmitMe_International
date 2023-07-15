@@ -1,37 +1,42 @@
 
+
+@media  screen and (1501px <= width<= 3000px) {
+    .homewhomain{
+        position: relative;
+        top: 10%;
+        width: 75%;
+    }
 .whoweare{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 0px;
-    gap: 50px;
-
-    position: absolute;
-    width: 1050px;
-    height: 1854px;
-    top: 1190px;
-    left: 235px;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    top: 40px;
+    left: 20%;
     
 }
 
 .row1{
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-
-width: 1054px;
-height: 112px;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px; */
+    width: 100%;
+    position: relative;
+    top: 10px;
 }
 .maincontent{
     display: flex;
 flex-direction: column;
 align-items: center;
 gap: 15px;
-animation: slide_up 3s ease-in;
-width: 315px;
+width: 100%;
 height: 112px;
 }
+
+
 .maincontent h2{
     width: 275px;
 height: 9px;
@@ -48,7 +53,7 @@ letter-spacing: 0.22px;
 color: #252B42;
 }
 .maincontent p{
-    width: 315px;
+    width: 95%;
 height: 40px;
 
 /* paragraph */
@@ -62,10 +67,11 @@ line-height: 20px;
 
 text-align: center;
 letter-spacing: 0.2px;
+text-align: justify;
 
 /* second-text-color */
 
-color: #737373;
+color: #000000;
 }
 
 .row2{
@@ -74,9 +80,9 @@ flex-direction: row;
 align-items: center;
 padding: 0px;
 gap: 62px;
-/* animation: slide_up 1.4s ease-in; */
 width: 100%;
-height: 250px;
+position: relative;
+left: 12.5%;
 }
 .colo1{
     display: flex;
@@ -85,23 +91,20 @@ align-items: center;
 padding: 0px;
 gap: 35px;
 
-width: 600px;
-height: 250px;
+width: 40%;
 }
 .img-fluid{
-    position: absolute;
-width: 500px;
-height: 500px;
-left: 0px;
-top: 300px;
+    position: relative;
+    width: 100%;
 }
 .colo2{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
 width: 357px;
-height:280px;
-background-color:white;
+position: relative;
+top: 0px;
+height: 300px;
 }
 .text{
     display: flex;
@@ -230,14 +233,14 @@ color: #252B42;
 
 
 .whobelow {
-    width: 75%;
+    width: 105%;
     height: 300px;
     background-color: var(--primary-blue-color);
     /* opacity: 0.99; */
-    border-radius: 40px;
+    /* border-radius: 40px; */
     position: relative;
-    top: 1735px;
-    left: 200px;
+    top: 40px;
+    left: 16.5%;
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -248,7 +251,7 @@ color: #252B42;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 57px;
+    line-height: 33px;
     letter-spacing: 0.2px;
     color: #ffffff;
     text-shadow: -4px 4px 2px rgba(0,0,0,0.6);
@@ -276,7 +279,16 @@ color: #252B42;
     top: 110px;
     left: -60px;
 }
-.whobelowh4 { width: 862px; display: flex; flex-direction: column; align-items: baseline; height: 93px; position: relative; top: -35px; }
+.whobelowh4 { 
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 93px;
+    position: relative;
+    top: -35px;
+    left: 39px;
+}
 .whobelow button {
     background-color: #ffffff;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
@@ -290,8 +302,11 @@ color: #252B42;
     align-items: center;
 }
 .whobelow span {padding-left: 1em;  }
-.whobelow span.bigiii {  height: 269px;
-    padding-bottom: 60px;}
+.whobelow span.bigiii {  
+    height: 300px;
+    padding-bottom: 110px;
+    padding-top: 15px;}
+
  .whobelow .bigiii h4{
     font-size: 90px;
 }
@@ -301,13 +316,721 @@ color: #252B42;
     background-color: rgba(0, 79, 162, 0.32);
     border-radius: 50%;
 }
-@keyframes slide_up {
-
-    0%{
-        transform: translateY(200px);
+}
+@media screen and (1000px <= width <=1500px){
+    .homewhomain{
+        position: relative;
+        top: 0px;
+        width: 75%;
     }
-    100%{
-        transform: translateY(0px);
-    }
+.whoweare{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    top: 10px;
+    left: 15%;
     
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px; */
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.maincontent{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+width: 100%;
+height: 112px;
+}
+.maincontent h2{
+    width: 275px;
+height: 9px;
+
+/* h2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #252B42;
+}
+.maincontent p{
+    width: 112%;
+height: 40px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+text-align: justify;
+
+/* second-text-color */
+
+color: #000000;
+position: relative;
+left: 2%;
+}
+
+.row2{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 62px;
+width: 100%;
+position: relative;
+left: 8.5%;
+}
+.colo1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 35px;
+position: relative;
+    top: 110px;
+width: 40%;
+}
+.img-fluid{
+    position: relative;
+    width: 100%;
+}
+.colo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 427px;
+    height: 400px;
+    padding-left: 20px;
+    box-sizing:border-box;
+  margin:5px;
+    margin: 50px;
+    position: relative;
+    top: 40px;
+    left:-60px;
+}
+
+/* .colo2:after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 4px solid var(--primary-blue-color);
+    border-right: 4px solid var(--primary-blue-color);
+  }
+
+  .colo2:before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    border-bottom: 4px solid var(--primary-red-color);
+    border-left: 4px solid var(--primary-red-color);
+  }
+   */
+.text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px;
+gap: 10px;
+
+width: 700px;
+}
+
+.text h3{
+    width: 424px;
+height: 50px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+letter-spacing: 0.2px;
+color: #252B42;
+
+}
+.text p{  
+width: 357px;
+height: 80px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #737373;
+}
+
+.firstcard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px;
+    gap: 20px;
+    width: 274px;
+    height: 48px;
+}
+.firstcard .icon1{
+    width: 32px;
+    height: 32px;
+    padding-top: 30px;
+}
+
+.secondcard .icon2{
+    width: 25px;
+    height: 25px;
+    padding-top: 30px;
+}
+.cardtext{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+/* gap: 5px; */
+
+width: 222px;
+height: 48px;
+position: relative;
+    left: -20px;
+}
+.cardtext h5{
+    width: 382px;
+height: 35px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 0px;
+letter-spacing: 0.1px;
+color: #252B42;
+margin: 0em;
+}
+.cardtext ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    /* display: inline-block; Needed to add space between the bullet and the text */
+    margin-left: -1em;
+    display: block;
+    position: relative;
+    top: 9px;
+     /* Also needed for space (tweak if needed) */
+  }
+.secondcard{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px;
+gap: 20px;
+position: relative;
+top:10px;
+width: 326px;
+height: 72px;
+}
+.cardtext2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 374px;
+height: 72px;
+
+}
+
+.cardtext2 h5{
+    width: 280px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.1px;
+color: #252B42;
+margin-block-end: 0.5em;
+
+}
+.cardtext2 h6{
+    width: 230px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.1px;
+color: #252B42;
+margin: 0em;
+}
+
+
+.whobelow {
+    width: 105%;
+    height: 300px;
+    background-color: var(--primary-blue-color);
+    /* opacity: 0.99; */
+    /* border-radius: 40px; */
+    position: relative;
+    top: 140px;
+    left: 17.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.whobelow h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size:38px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: -4px 4px 2px rgba(0,0,0,0.6);
+    margin-block-end: -7rem;
+    position: relative;
+    top: 55px;
+    left: 7px;
+    text-transform: uppercase;
+
+}
+.whobelow p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    position: relative;
+    top: -9px;
+    width: 125px;
+    left: 4px;
+}
+.whobelowbtn {
+    position: relative;
+    top: 110px;
+    left: -11px;
+}
+.whobelowh4 { 
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 93px;
+    position: relative;
+    top: -35px;
+    left: 39px;
+}
+.whobelow button {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 240px;
+    border: none;
+    height: 70px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.whobelow span {padding-left: 1em;  }
+.whobelow span.bigiii {  
+    height: 300px;
+    padding-bottom: 96px;
+    padding-top: 15px;}
+
+ .whobelow .bigiii h4{
+    font-size: 70px;
+}
+.whobelow .rocketbtn{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 79, 162, 0.32);
+    border-radius: 50%;
+}
+}
+@media screen and (max-width:900px){
+    .homewhomain{
+        position: relative;
+        top: 90px;
+        width: 75%;
+    }
+.whoweare{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    top: 10px;
+    left: 15%;
+    
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px; */
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.maincontent{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+width: 100%;
+height: 112px;
+}
+.maincontent h2{
+    width: 275px;
+height: 9px;
+
+/* h2 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.22px;
+color: #252B42;
+}
+.maincontent p{
+    width: 95%;
+height: 40px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+text-align: justify;
+
+/* second-text-color */
+
+color: #000000;
+}
+
+.row2{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 62px;
+width: 80%;
+position: relative;
+left: 8.5%;
+}
+.colo1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 35px;
+position: relative;
+    top: 350px;
+width: 120%;
+left: -50px;
+}
+.img-fluid{
+    position: relative;
+    width: 80%;
+}
+.colo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 427px;
+    height: 400px;
+    padding-left: 20px;
+    box-sizing:border-box;
+  margin:5px;
+    margin: 50px;
+    position: relative;
+    top: 240px;
+    left:-160px;
+}
+
+/* .colo2:after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 4px solid var(--primary-blue-color);
+    border-right: 4px solid var(--primary-blue-color);
+  }
+
+  .colo2:before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    border-bottom: 4px solid var(--primary-red-color);
+    border-left: 4px solid var(--primary-red-color);
+  }
+   */
+.text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px;
+gap: 10px;
+
+width: 700px;
+}
+
+.text h3{
+    width: 424px;
+height: 50px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+letter-spacing: 0.2px;
+color: #252B42;
+
+}
+.text p{  
+width: 357px;
+height: 80px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #737373;
+}
+
+.firstcard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px;
+    gap: 20px;
+    width: 274px;
+    height: 48px;
+}
+.firstcard .icon1{
+    width: 32px;
+    height: 32px;
+    padding-top: 30px;
+}
+
+.secondcard .icon2{
+    width: 25px;
+    height: 25px;
+    padding-top: 30px;
+}
+.cardtext{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+/* gap: 5px; */
+
+width: 222px;
+height: 48px;
+position: relative;
+    left: -20px;
+}
+.cardtext h5{
+    width: 382px;
+height: 35px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 0px;
+letter-spacing: 0.1px;
+color: #252B42;
+margin: 0em;
+position: relative;
+left: 10px;
+}
+.cardtext ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    /* display: inline-block; Needed to add space between the bullet and the text */
+    margin-left: -1em;
+    display: block;
+    position: relative;
+    top: 9px;
+     /* Also needed for space (tweak if needed) */
+  }
+.secondcard{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px;
+gap: 20px;
+position: relative;
+top:10px;
+width: 326px;
+height: 72px;
+}
+.cardtext2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 374px;
+height: 72px;
+
+}
+
+.cardtext2 h5{
+    width: 280px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.1px;
+color: #252B42;
+margin-block-end: 0.5em;
+
+}
+.cardtext2 h6{
+    width: 230px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.1px;
+color: #252B42;
+margin: 0em;
+}
+
+
+.whobelow {
+    width: 105%;
+    height: 300px;
+    background-color: var(--primary-blue-color);
+    /* opacity: 0.99; */
+    /* border-radius: 40px; */
+    position: relative;
+    top: 140px;
+    left: 17.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.whobelow h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size:38px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: -4px 4px 2px rgba(0,0,0,0.6);
+    margin-block-end: -7rem;
+    position: relative;
+    top: 55px;
+    left: 7px;
+    text-transform: uppercase;
+
+}
+.whobelow p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #004fa2;
+    position: relative;
+    top: -9px;
+    width: 125px;
+    left: 4px;
+}
+.whobelowbtn {
+    position: relative;
+    top: 110px;
+    left: -11px;
+}
+.whobelowh4 { 
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 93px;
+    position: relative;
+    top: -35px;
+    left: 39px;
+}
+.whobelow button {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    width: 240px;
+    border: none;
+    height: 70px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.whobelow span {padding-left: 1em;  }
+.whobelow span.bigiii {  
+    height: 300px;
+    padding-bottom: 96px;
+    padding-top: 15px;}
+
+ .whobelow .bigiii h4{
+    font-size: 70px;
+}
+.whobelow .rocketbtn{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 79, 162, 0.32);
+    border-radius: 50%;
+}
 }
