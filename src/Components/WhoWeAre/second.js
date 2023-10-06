@@ -40,18 +40,18 @@ batches of students throughout the entire process.</p>
       <div className='whychooseus'>
       <h2>Why Choose Us</h2>
             <p><b>Customized Approach: &nbsp;</b>  We understand that each student is unique, and we tailor our
-services to meet your specific requirements and goals.</p>
+services to meet your specific requirements and goals.
             <br></br>
-            <p><b>Expert Writers: &nbsp;</b>  Our team comprises experienced writers who possess in-depth
-knowledge of the study abroad application process.</p>
+            <b>Expert Writers: &nbsp;</b>  Our team comprises experienced writers who possess in-depth
+knowledge of the study abroad application process.
             <br></br>
-            <p><b>Attention to Detail: &nbsp;</b>  We pay meticulous attention to every aspect of your application
-materials to ensure they are error-free and compelling.</p>
+            <b>Attention to Detail: &nbsp;</b>  We pay meticulous attention to every aspect of your application
+materials to ensure they are error-free and compelling.
             <br></br>
-            <p><b>Timely Delivery:&nbsp;</b> We respect deadlines and strive to deliver your completed application
-materials promptly.</p>
+            <b>Timely Delivery:&nbsp;</b> We respect deadlines and strive to deliver your completed application
+materials promptly.
             <br></br>
-            <p>Let us assist you in creating exceptional application materials that will set you apart
+            Let us assist you in creating exceptional application materials that will set you apart
 from the competition and help you secure admission to your desired study abroad
 program. Contact us today to get started on your journey towards a successful
 international education!</p>

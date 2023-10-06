@@ -238,7 +238,7 @@
     }
     
 }
-@media screen and (1000px <= width <=1500px){
+@media screen and (max-width : 1500px){
 
     .fourmain{
         position: relative;
@@ -247,9 +247,9 @@
     }
     .four {
         background-color: var(--primary-red-color);
-        width: 75%;
+        width: 83.5%;
         position: relative;
-        left: 12.5%;
+        left: 9%;
         display: flex;
         font-size: 70px;
     }
@@ -286,7 +286,7 @@
         width: 100%;
     position: relative;
     top: 8%;
-    left: 6%;
+    left: 4%;
 
     }
 
@@ -319,7 +319,7 @@
         left: 8%;
     }
     .fourone{
-        width: 25%;
+        width: 30%;
         height: 100%;
         background-color: #ffffff;
     }
@@ -588,14 +588,14 @@
         display: flex;
         flex-direction: row;
         gap: 0%;
-        height: 360px;
+        height: 400px;
     }
     .fourbelowh4 { 
         width: 100%; 
         display: flex; 
         flex-direction: column; 
         align-items: baseline; 
-        height: 193px; 
+        height: 200px; 
         position: relative; 
         top: -40px;
     left: -15px; }
@@ -660,7 +660,7 @@
         flex-direction: column;
         justify-content: space-around;
         height: 274px;
-        top: 179px;
+        top: 50%;
     }
     
     .fourbelow button {
@@ -712,12 +712,12 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 28px;
+        font-size: 23px;
         line-height: 35px;
         text-align: center;
         letter-spacing: 0.6px;
         position: relative;
-        top: 255px;
+        top: 285px;
         left: 15px;
     }
     
@@ -725,3 +725,11 @@
     
     
 } 
+@media screen and (1000px <= width <=1200px){
+    .fourbelowh4{
+        left: 5%;
+    }
+    .fourbelowbtn{
+        left: -65%;
+    }
+}

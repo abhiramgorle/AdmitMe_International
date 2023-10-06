@@ -88,5 +88,6 @@
     .edufirst  .serblue{
         background-color: #004fa2;
     }
-    
+}
+@media screen and (max-width:900px){
 }

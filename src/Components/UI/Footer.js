@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Link,useLocation} from 'react-router-dom';
 import "./FooterStyles.css"
-// import { FaLocationArrow, FaPhoneAlt } from 'react-icons/fa'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {AiFillFacebook,AiFillLinkedin,AiFillInstagram} from 'react-icons/ai'
+import {  FaPhoneAlt } from 'react-icons/fa'
+// import {MdEmail} from 'react-icons/md'
+import {AiFillFacebook,AiFillLinkedin,AiFillInstagram,AiOutlineMail} from 'react-icons/ai'
 import ftext from "../../Assets/pics/footertext.png"
 
 const Footer = ({ position }) => {
@@ -103,19 +103,23 @@ const Footer = ({ position }) => {
             </div>
             <div className='sb_footer-links_div'>
                 <h4>Regional Office</h4>
-                <p>Subhavasista Enclave, 4th Floor, Above Punjab & Sindh Bank building, Day & Night Hospital Road,Rama Talkies, Visakhapatnam</p>
+                <p>Subhavasista Enclave, 4th Floor, Day & Night Hospital Road,Rama Talkies, Visakhapatnam</p>
                 {/* <span><a href="tel:+918885618111">(+91)-888 5618 111</a></span> */}
 
             </div>
             <div className='sb_footer-links_div3'>
                 <h4>Contact Us</h4>
                 {/* <FaPhoneAlt size={0} style = {{color:'#ffffff',marginRight:'2rem'}} /> */}
-                <FontAwesomeIcon icon="fa-solid fa-circle-phone" />
-                <p>+91 8885618111</p>
-                <p>Hyderabad</p>
-                <p>Bangalore</p>
+                <div className='phoneandmailfooter'>
+                <FaPhoneAlt size = {20} style = {{color:'#ffffff',marginRight:'1rem'}}/>
+                    <p>+91 8885618111</p>
+                </div>
+                <div className='phoneandmailfooter'>
+                    <AiOutlineMail size = {25} style = {{color:'#ffffff',marginRight:'1rem'}}/>
+                    <p className='footeremailtext'>info@admitmeinternational.com</p>
+                </div>
             </div>
-            <div className='sb_footer-links_div'>
+            <div className='sb_footer-links_div_image'>
                 <img src={ftext} alt='Fotter text' className='footertext'></img>
 
             </div>

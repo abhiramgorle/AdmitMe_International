@@ -8,7 +8,8 @@ import {MdFlightTakeoff} from "react-icons/md";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/bundle";
-import {Autoplay,Pagination} from "swiper";
+import {Autoplay,Pagination,Navigation} from "swiper";
+import 'swiper/css/navigation';
 import { Container, Row } from 'react-bootstrap';
 import bao from "../../Assets/icons/ballons.png"
 
@@ -30,8 +31,11 @@ const Testimonials = () => {
   "--swiper-pagination-bullet-size": "7px",
   "--swiper-pagination-bullet-horizontal-gap": "4px"
 }}
-        slidesPerView={1}
-        spaceBetween={40}
+        slidesPerView={2}
+        spaceBetween={10}
+        navigation={{
+            clickable: true,
+          }}
         // pagination={{
         //   clickable: true,
         // }}
@@ -41,11 +45,11 @@ const Testimonials = () => {
           }}
           breakpoints={{
     900: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween:70,
     },
   }}
-        modules={[Autoplay,Pagination]}
+        modules={[Autoplay,Pagination,Navigation]}
         className="mySwiper1"
       >
         <SwiperSlide>

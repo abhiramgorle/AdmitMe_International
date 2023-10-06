@@ -215,12 +215,11 @@ flex-direction:row;
 align-items: center;
 position: relative;
     top: -9px;
-    left: 30%;
-gap: 15px;
+    left: 8%;
+    gap: 625px;
 }
-.sb_footer-below p{
-    color: black;
-
+.sb_footer-below p {
+    color: white;
 }
 .sb_footer-below-made{
     padding:0 50px;
@@ -239,7 +238,62 @@ gap: 15px;
     font-size: 14px;
     letter-spacing: 0.2px;
 }
+.phoneandmailfooter{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.phoneandmailfooter svg {
+    position: absolute;
+    top: 12px;
+    padding-left: 1px;
+}
+.phoneandmailfooter p {
+    padding-left: 36px;
+}
+.sb_footer-links_div_image {
+    width: 17%;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    padding: 0px 0px 0px 20px;
+    left: 7%;
+    position: relative;
+}
 
+
+
+@media screen and (max-width: 1250px) {
+    .sb_footer-links {
+        width: 90%;}
+    .footer .sb_footer-below{
+        gap: 24%;
+        left: 9%;
+        }
+        .sb_footer-made{
+            width: 50%;
+        }
+        .sb_footer-below-icons {
+            width: 25%;
+        }
+        .sb_footer-links_div3{
+            margin: 0.1rem;
+        }
+        .sb_footer-links_div{
+            width: 25%;
+            margin: 0.1rem;
+        }
+        .sb_footer-links{
+            left: 7%;
+        }
+        .footeremailtext{
+            font-size: 12px;
+        }
+    
+}
+    
 @media screen and (max-width:900px) {
     .footer{
         display: none;

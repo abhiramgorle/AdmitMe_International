@@ -264,6 +264,138 @@ p.serp {
     background: red;
 
 }
+@media screen  and (max-width:900px){
+    .immican{
+        top: 5px;
+    }
+    .immihead {
+        width: 90%;
+        top: 60px;
+        left: 10px;
+        flex-direction: column-reverse;
+    }
+    .immiheadname {
+        width: 90%;
+        /* background: black; */
+        height: 80%;
+        position: relative;
+        top: 88px;
+        left: 16px;
+    }
+    .immiheadimg{
+        /* background: black; */
+        width: 93%;
+        height: 188%;
+        left: 5%;
+    }
+    .immiheadimg img{
+        width: 100%;
+    }
+    .head1{
+        position: relative;
+        max-width: 500px;
+      /* margin: 100px auto; */
+      text-align: center;
+    
+    }
+    .head1 h4{
+        font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #004fa2;
+            width: 650px;
+            text-transform:uppercase;
+            margin-block-end: 0em;
+            margin-block-start: 0em;
+    }
+    .head2 h4{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        color: #004fa2;
+        text-transform: uppercase;
+        margin-block-end: 1em;
+        margin-block-start: 0em;
+        width: 570px;
+    }
+    
+    .immiheadname  h2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 610;
+        font-size: 5.3rem;
+        text-align: left;
+        letter-spacing: 0.2px;
+        color: #004fa2;
+        width: 700px;
+        text-transform: uppercase;
+        line-height: 14px;
+    }
+    .head1:before{
+        content:" ";
+        display: block;
+        height: 2px;
+        width: 10%;
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        background: red;
+    }
+    
+    .immican .imgbtnhome{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 0px;
+    gap: 20px;
+    width: 3000px;
+    height: 48px;
+    }
+    
+    .immican .imgbtnhome .imgbtn{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 1px;
+    width: 150px;
+    height: 48px;
+    background: #E0263C;
+    border-radius: 37px;
+    border-style: none;
+    }
+    
+    .immican .imgbtnhome .imgbtn-light{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 1px;
+    width: 150px;
+    height: 48px;
+    background: #004FA2;
+    border-radius: 37px;
+    }
+    
+    .immican .imgbtnhome .imgbtntext{
+        width: 120px;
+    height: 3px;
+    text-transform:capitalize;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    }
+    
+}
 @media screen  and (max-width:1500px){
     .sername::before{
         left: -300px;

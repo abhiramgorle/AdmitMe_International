@@ -73,3 +73,12 @@
 .serblue{
     background-color: #004fa2;
 }
+
+@media screen and (max-width:900px) {
+    .testfirst {
+        width: 150%;
+    }
+    .testimg img{
+            width: 110%;
+    }
+}

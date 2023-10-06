@@ -71,8 +71,8 @@ const Letsmain = () => {
   return (
     <div  className='letsmain'>
         <div className='letsmainhead'>
-            <h2>Contact Us</h2>
-            <p>Any question or remarks? Just write us a message!</p>
+            <h2>Write to Us</h2>
+            {/* <p>Any question or remarks? Just write us a message!</p> */}
         </div>
         <div className='letsdiv'>
             <div  className='letssvg'>
@@ -94,7 +94,7 @@ const Letsmain = () => {
                 <div className='phonestudy'>
                     <div className='phoneonly'>
                         <p>Phone Number<sup>*</sup></p>
-                        <label ><input type='tel' name='Phoneno' id='Phoneno' placeholder='Phone Number' onChange={(e)=>setphoneNumber(e.target.value)}
+                        <label ><input type='tel' name='Phoneno' id='Phoneno' required placeholder='Phone Number' onChange={(e)=>setphoneNumber(e.target.value)}
           value={phoneNumber}/></label>
                     </div>
                     <div className='studyonly'>
@@ -133,7 +133,7 @@ const Letsmain = () => {
                     </div>
                     </div>
                 <div className='submit'>
-                    <button type='submit' ><p>Submit</p></button>  
+                    <button type='submit'><p>Submit</p></button>  
                 </div>
 
                 </form>

@@ -4,15 +4,20 @@
         width: 100%;
         top: 40px;
     }
-    
+    .ourservices{
+        position: relative;
+        width: 81%;
+        top: 40px;
+        left: 9.5%;
+    }
     .University, .soplor, .visaprocess {
         position: relative;
         display: flex;
         flex-direction: row;
         top: 50px;
-        left: 15vw;
-        width: 90%;
-        gap: 13px;
+        left: 9.5%;
+    width: 81%;
+        gap: 40px;
     }
     .soplor, .visaprocess{
         top: 100px;
@@ -20,23 +25,20 @@
     
     .Content {
         
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     position: relative;
     top: 10px;
 
     }
-    .Content.reverser{
-        width: 50%;
-    }
     
     .main h2{
         font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 37px;
-    line-height: 57px;
+    font-size: 32px;
+    line-height: 37px;
     /* or 142% */
     
     display: flex;
@@ -47,14 +49,14 @@
     margin-block-end: 0rem;
     }
     .main p{
-        font-family: 'Montserrat';
+        font-family: 'Zona Proregular';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     /* or 143% */
     
-    display: flex;
+    display: inline;
     align-items: center;
     letter-spacing: 0.2px;
     color: #000033;
@@ -62,16 +64,23 @@
     }
     .pic{
         width: 30%;
-    margin: 122px 78px 0px 96px;
     position: relative;
     float: left;
     /* border-radius: 213px 0px 218px 216px; */
     overflow: hidden;
     /* box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6); */
     height: 250px;
+    top: 40px;
+    border-radius: 5px;
     }
     .pic.space{
-        margin-top: 192px;
+        top: 35vh;
+    }
+    .pic.small{
+        top: 20vh;
+    }
+    .pic-reverse.smal2{
+        top: 55vh;
     }
     .pic img{
         position: relative;
@@ -85,8 +94,9 @@
         flex-direction: row-reverse;
         position: relative;
     top: 90px;
-    width: 80%;
-    left: 50px;
+    width: 81%;
+    left: 9%;
+    gap: 40px;
     }
     /* .soplor {
         top: 780px;
@@ -102,7 +112,6 @@
         top:1330px;
     } */
     .pic-reverse{
-        margin: 70px 96px 0px 96px;
         width: 30%;
     /* margin: 82px 78px 0px 96px; */
     position: relative;
@@ -112,6 +121,7 @@
     overflow: hidden;
     /* box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6); */
     height: 250px;
+    top: 35vh;
     }
     
     .pic-reverse img{

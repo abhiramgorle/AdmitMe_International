@@ -97,8 +97,8 @@ color: #000000;
 }
 @media screen and (max-width:900px) {
     .header{
-        width: 100vw;
-        height: 80px;
+        width: 105vw;
+        height: 90px;
     }
     .header-bg .nav-menu a{
         color: white;
@@ -114,8 +114,8 @@ color: #000000;
 
     .hamburger{
         position:absolute;
-    top: 40px;
-    left: 13px;
+    top: 49px;
+    left: 29px;
     display: flex;
     }
     .nav-menu{
@@ -157,7 +157,7 @@ color: #000000;
 }
 
 
-@media screen and (901px <= width <= 1250px){
+@media screen and (901px <= width <= 1000px){
     .header{
         width: 100vw;
         height: 95px;
@@ -211,6 +211,17 @@ color: #000000;
     }
 }
 
+@media screen and (1000px <= width <= 1250px){
+    .nav-menu{
+        display: flex;
+        padding: 0px 20px;
+        position: relative;
+        right: 10px;
+    }
+    .Collapse {
+        right: 2%;}
+
+}
 .nav-menu a:hover{
     color: #004fa2;
     font-family: var(--primary-font-type);

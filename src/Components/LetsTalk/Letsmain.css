@@ -34,9 +34,7 @@ line-height: 20px;
 letter-spacing: 0.2px;
 color: #737373;
 }
-.studyonly {
-    padding-top: 4px;
-}
+
 .letsdiv {
     display: flex;
     flex-direction: row;
@@ -50,6 +48,9 @@ color: #737373;
 }
 .letssvg img{
     width: 100%;
+}
+.studyonly {
+    padding-top: 4px;
 }
 
 input,select,option{
@@ -148,4 +149,39 @@ margin-block-start: 0em;
 text-align: center;
 letter-spacing: 0.2px;
 color: #FFFFFF;
+}
+
+@media screen and (max-width:900px) {
+    .letsmainhead {
+        width: 52%;
+        left: 25%;
+    }
+    .letsdiv {
+        flex-direction: column;
+        left: 5%;
+    }
+    .letssvg {
+        width: 85%;
+    }
+    input,select,option{
+        width: 110%;
+        height: 40px;
+    }
+    
+    .letsform {
+        width: 100%;
+    }
+    .letstalkfullform{
+        width: 90%;
+    }
+    .nameemail, .phonestudy{
+        height: 90px;
+    }
+    .submit {
+        padding-right: 20%;
+    }
+    
+    button {
+        width: 150px;
+    }
 }

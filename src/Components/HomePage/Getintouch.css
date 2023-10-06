@@ -204,7 +204,7 @@
     }
 }
 
-@media screen and (1000px <= width <= 1500px) {
+@media screen and (max-width: 1500px) {
     .getin {
         width: 82%;
     position: relative;
@@ -359,6 +359,7 @@
     p.emailtextt {
         position: relative;
         left: 6%;
+        font-size: 11px;
     }
     .getsbtn3:hover{
         background-color: var(--primary-red-color);
@@ -388,7 +389,7 @@
     }
     a.getsbtn3{
         position: relative;
-        top: 140px;
+        top: 150px;
         /* background-color: white; */
         width: 50%;
         height: 47px;
@@ -412,21 +413,21 @@
 }
 @media screen and (max-width:900px) {
     .getin {
-        width: 100%;
-        position: relative;
-        top: 1450px;
-        left: 0%;
+        width:90%;
+    position: relative;
+    top: 1550px;
+    left: 2%;
         display: flex;
         flex-direction: column;
-        display: none;
     }
     
     .getinhead {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 2px;
-        left: -20px;
+        /* top: -2px; */
+        left: 25%;
+        width: 90%;
     }
     .getinhead p{
         width: 600px;
@@ -454,7 +455,6 @@
     color: #252B42;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    padding-left: 128px;
     
     }
     
@@ -462,16 +462,17 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 100px;
-        left: -60px;
+    top: 40px;
+    width: 90%;
+
     }
     .getinrest svg{
-            padding: 0px 119px;
-            position: absolute;
+            padding: 0px 190px;
+            position: relative;
             top: 80px;
     }
     .getin span{
-            padding: 0px 79px;
+            padding: 0px 119px;
             position: absolute;
             top: 206px;
             font-family: 'Montserrat';
@@ -500,19 +501,17 @@
         text-align: center;
         letter-spacing: 0.2px;
         color: #252B42;
-        padding-left: 99px;
-        position :absolute;
-        top: 150px;
+        position: relative;
+    top: 100px;
+    left: 15%;
+    width: 77%;
     }
     .resttwo p{
         color: #ffffff;
-        padding-left: 50px;
-    }
-    .restthree p{
-        padding-left: 40px;
+        /* padding-left: 50px; */
     }
     .restthree p.getsbtntext{
-        padding-left: 88px;
+        /* padding-left: 88px; */
     }
     .restthree svg{
         padding-left: 90px;
@@ -527,40 +526,32 @@
         padding-left: 92px;
     }
     .restone {
-        width: 277px;
-        height: 309px;
-        display: flex;
-        flex-direction: column;
-        /* POSITION: absolute;
-        top: 112px;
-        left: 123px; */
-        padding-right: 50px;
+        width: 85%;
+    display: flex;
+    flex-direction: column;
     }
     .resttwo {
-        width: 307px;
-        background-color: var(--primary-red-color);
-        height: 309px;
-        display: flex;
-        flex-direction: column;
-        transition: transform 1s;
+        width: 90%;
+    background-color: var(--primary-red-color);
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s;
     }
     .resttwo:hower{
         transform: translateZ(100px);
     }
     
     .restthree {
-        width: 277px;
+        width: 25%;
         height: 309px;
         display: flex;
-        padding-left: 50px;
         flex-direction: column;
-        display: none;
     }
     a.getsbtn1 {
-        position: absolute;
-        top: 250px;
+        position: relative;
+        top: 140px;
         background-color: white;
-        width: 138px;
+        width: 40%;
         height: 47px;
         border: 1px solid var(--primary-red-color);
         border-radius: 5px;
@@ -572,6 +563,11 @@
             border-color:#ffffff ;
        
     }
+    p.emailtextt {
+        position: relative;
+        left: 6%;
+        font-size: 11px;
+    }
     .getsbtn3:hover{
         background-color: var(--primary-red-color);
         border: 1px solid;
@@ -579,48 +575,55 @@
     
     }
     p.getsbtntext1 {
-        padding-left: 8px;
         top: 0px;
         color: var(--primary-red-color);
     }
     .getsbtntext1:hover{
-        padding-left: 8px;
         top: 0px;
         color: #ffffff;
     }
     .getsbtntext3:hover{
-        padding-left: 8px;
         top: 0px;
         color: #ffffff;
     }
     p.getsbtntext2 {
-        padding-left: 8px;
         top: 0px;
         color: #ffffff;
     }
     p.getsbtntext3 {
-        padding-left: 8px;
         top: 0px;
         color: var(--primary-red-color);
     }
     a.getsbtn3{
-        position: absolute;
-        top: 250px;
+        position: relative;
+        top: 150px;
         /* background-color: white; */
-        width: 138px;
+        width: 50%;
         height: 47px;
         border: 1px solid var(--primary-red-color);
         border-radius: 5px;
-        left: 766px;
+        left: 20%;
     }
+   
     a.getsbtn2 {
-        position: absolute;
-        top: 250px;
-        /* background-color: white; */
-        width: 138px;
-        height: 47px;
-        border: 1px solid #ffffff;
-        border-radius: 5px;
-        left: 80px;
+        position: relative;
+    top: 140px;
+    /* background-color: white; */
+    width: 50%;
+    height: 47px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    left: 25%;
+    display: flex;
     }
+}
+@media screen and (1000px <= width <= 1200px){
+    a.getsbtn1{
+        width: 45%;
+        left: 75px;
+    }
+    a.getsbtn2{
+        top: 126px;
+    }
+
 }

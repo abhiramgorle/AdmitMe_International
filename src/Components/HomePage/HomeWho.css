@@ -678,8 +678,8 @@ margin: 0em;
 @media screen and (max-width:900px){
     .homewhomain{
         position: relative;
-        top: 90px;
-        width: 75%;
+        top: 140px;
+        width: 79%;
     }
 .whoweare{
     display: flex;
