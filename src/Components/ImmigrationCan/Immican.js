@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Immican.css"
-import img1 from "../../Assets/pics/canada1.png"
+import img1 from "../../Assets/pics/canada1.webp"
 import imi1 from "../../Assets/pics/imi1.jpg"
 import imi2 from "../../Assets/pics/imi2.jpg"
 import imi3 from "../../Assets/pics/imi3.jpg"
@@ -31,15 +31,14 @@ const Immican = () => {
       <div className='immiser'>
         <div className='immiserhead'>
             <div className='sername'>
-            <span className='serhead'><h2>All Our  </h2></span>
-            <span className='serheadred'><h2 style={{color:"#e0263c"}}>     Services</h2></span>
+            <span className='serheadred'><h2 style={{color:"#e0263c"}}> Our Services</h2></span>
             </div>
             <p className='serp'>We provide all types of services related to immigration to canada.</p>
         </div>
         <div className='immisermain'>
             <div className='immiservice'>
                 <img src={imi1} alt='service'></img>
-                <h3>Temporary Foreign<br /> Worker Program</h3>
+                <h3>Temporary Foreign Worker Program</h3>
                 <p>Apply for an LMIA to conclude whether you can enlist a new expert to fill work or capacity lacks for a fleeting reason.</p>
             </div>
             <div className='immiservice'>
@@ -61,7 +60,7 @@ const Immican = () => {
             </div>
             <div className='immiservice'>
             <img src={imi5} alt='service'></img>
-                <h3>Spousal Open Work <br />Permit</h3>
+                <h3>Spousal Open Work Permit</h3>
                 <p>If your spouse is currently working or studying in Canada, or willing to relocate to Canada with you then your partner might be eligible for Open Work Permit</p>
 
             </div>

@@ -3,15 +3,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    position: absolute;
-    top: 595px;
-    height: 700px;
+    position: relative;
+    top: 80px;
 }
 .letsmainhead {
-    width: 377px;
-    position: absolute;
+    width: 32%;
+    position: relative;
     top: 10px;
-    left: 560px;
+    left: 35%;
 }
 
 .letsmainhead h2{
@@ -35,44 +34,48 @@ line-height: 20px;
 letter-spacing: 0.2px;
 color: #737373;
 }
-.studyonly {
-    padding-top: 4px;
-}
+
 .letsdiv {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 1300px;
-    top: 100px;
-    left: 180px;
+    position: relative;
+    width: 100%;
+    top: 40px;
+    left: 10%;
 }
-
+.letssvg {
+    width: 30%;
+}
 .letssvg img{
-    width: 500px;
+    width: 100%;
+}
+.studyonly {
+    padding-top: 4px;
 }
 
 input,select,option{
-    border: none;
+    /* border: none; */
     outline: none;
-    border-bottom: 1px solid #8D8D8D;
-    width: 330px;
+    border: 2px solid #8D8D8D;
+  border-radius: 4px;
+    /* border-bottom: 1px solid #8D8D8D; */
+    width: 80%;
+    height: 30px;
 }
 input:hover{
-    border:none;
-    border-bottom: 1px solid #000;
+    /* border:none;
+    border-bottom: 1px solid #000; */
+    border: 2px solid black;
+  border-radius: 4px;
 }
 
 .letsform {
     display: flex;
     flex-direction: column;
-    width: 716px;
-    height: 400px;
-    position: absolute;
-    top: 90px;
-    left: 535px;
-}
-form {
-    height: 400px;
+    width: 70%;
+    position: relative;
+    top: 40px;
+    left: 0px;
 }
 form p{
     font-family: 'Montserrat';
@@ -82,27 +85,47 @@ font-size: 12px;
 line-height: 20px;
 color: #8D8D8D;
 }
-.nameemail, .phonestudy {
+.letstalkfullform{
+    width: 90%;
+}
+.nameemail, .phonestudy{
     display: flex;
     flex-direction: row;
     gap: 30px;
     padding-left: 50px;
     height: 80px;
+    width: 80%;
 }
-
+.nameonly, .emailonly, .phoneonly, .studyonly {
+    width: 40%;
+}
+.typeofenquiry{
+    padding-top: 20px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.typeofenquiry label{
+    padding-top: 2px;
+    font-size: 0.7rem;
+    margin: 0rem 0.5rem 0.5rem 0.9rem;
+}
+.typeofenquiry input{
+    width: 30px;
+    height: 15px;
+}
 .messageonly {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
 }
 
-.messageonly input{
-    width: 700px;
-}
+
 .submit {
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 50px;
+    padding-right: 200px;
     padding-top: 50px;
 }
 
@@ -113,6 +136,7 @@ button {
     width: 130px;
     border: none;
     height: 40px;
+    cursor:pointer;
 }
 
 .letsdiv button p{
@@ -125,4 +149,39 @@ margin-block-start: 0em;
 text-align: center;
 letter-spacing: 0.2px;
 color: #FFFFFF;
+}
+
+@media screen and (max-width:900px) {
+    .letsmainhead {
+        width: 52%;
+        left: 25%;
+    }
+    .letsdiv {
+        flex-direction: column;
+        left: 5%;
+    }
+    .letssvg {
+        width: 85%;
+    }
+    input,select,option{
+        width: 110%;
+        height: 40px;
+    }
+    
+    .letsform {
+        width: 100%;
+    }
+    .letstalkfullform{
+        width: 90%;
+    }
+    .nameemail, .phonestudy{
+        height: 90px;
+    }
+    .submit {
+        padding-right: 20%;
+    }
+    
+    button {
+        width: 150px;
+    }
 }

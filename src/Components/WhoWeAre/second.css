@@ -1,75 +1,92 @@
-.secondp{
-    position: absolute;
-    top:700px;
-    width: 100%;
-    height: 1000px;
-}
-.Whowearemain {
-    position: absolute;
-    top: 55px;
-    left: 149px;
-    display: flex;
-    flex-direction: row;
-    right: 125px;
-}
-
-.whowepic {
-    padding-top: 80px;
-}
-
-.WhoWeContent {
-    display: flex;
-    flex-direction: column;
-    width: 668px;
-}
-
-.secondp h2{
-        font-family: 'Montserrat';
+@media screen and (max-width:3000px){
+    .secondp{
+        position: relative;
+        width: 100%;
+        top: 40px;
+    }
+    .Whowearemain {
+        position: relative;
+        top: 40px;
+        left: 10%;
+        display: flex;
+        flex-direction: row;
+        width: 82%;
+    }
+    
+    .whowepic {
+        position: relative;
+        top: 250px;
+        width: 40%;
+    }
+    .whowepic img{
+            width: 90%;
+            position: relative;
+            top: -60px;
+        
+    }
+    .WhoWeContent {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    
+    .secondp h2{
+            font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 57px;
+        /* or 142% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.2px;
+        
+        color:#004fa2;
+        margin-block-end: 0rem;
+    }
+    
+    .secondp p{
+        font-family: 'Zona Proregular';
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    /* or 142% */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    
-    color:#004fa2;
-    margin-block-end: 0rem;
-}
+    font-weight: 450;
+    font-size: 20px;
+        /* or 143% */
+        
+        display: inline;
+        align-items: center;
+        letter-spacing: 0.2px;
+        color: #000033;
+        text-align: justify;
+    }
+    .whychooseus{
+        position: relative;
+        width: 83%;
+        top: 40px;
+        left: 9%;
 
-.secondp p{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
+    }
+    .whychooseus h2{
+        position: relative;
+        left: 30%;
+    }
+    .whychooseus p{
+        text-align: center;
+    }
+    .marker {
+        position: relative;
+        width: 100%;
+        top: 53px;
+    }
     
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #000033;
-}
-.picbg {
-    width: 456px;
-    height: 440px;
-    background-color: #004fa2;
-    border-radius: 52% 48% 47% 53% / 30% 30% 70% 70%;
-    position: absolute;
-    z-index: -10;
-    top: 81px;
-    left: 54px;
-}
-
-.marker {
-    position: absolute;
-    width: 100%;
-    top: 653px;
-}
-
-.mapmarker {
-    padding-bottom: 50px;
-    padding-left: 640px;
+    .mapmarker {
+        position: relative;
+    top: 10px;
+    left: 40%;
+    width: 20%;
+    }
+    iframe {
+        position: relative;
+        top: 40px;
+    }
 }

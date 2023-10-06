@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './VideoStyles.css'
-import earthvideo from '../../Assets/earth1.mp4'
+import earthvideo from '../../Assets/earth1.webm'
 import Type from "./Type.js";
 const Video = () => {
   return (
@@ -14,8 +14,8 @@ const Video = () => {
         
       
       <div className='btnhome'>
-      <Link to='/contact' className='btn'> <p className='btntext'>Contact Now</p></Link>
-        <Link to='/Who We Are' className='btn-light'><p className='btntext'>Learn More</p></Link>
+      <Link to='/LetsTalk' className='btn'> <p className='btntext'>Contact Now</p></Link>
+        <Link to='/WhoWeAre' className='btn-light'><p className='btntext'>Learn More</p></Link>
       </div>
       </div>
     </div>

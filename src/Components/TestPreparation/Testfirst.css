@@ -1,6 +1,5 @@
 .testfirst {
     width: 100%;
-    height: 476px;
     /* background: linear-gradient(233deg, #D71489 -7.04%, #004788 100%);
     opacity: 0.89; */
     position: relative;
@@ -73,4 +72,13 @@
 }
 .serblue{
     background-color: #004fa2;
+}
+
+@media screen and (max-width:900px) {
+    .testfirst {
+        width: 150%;
+    }
+    .testimg img{
+            width: 110%;
+    }
 }

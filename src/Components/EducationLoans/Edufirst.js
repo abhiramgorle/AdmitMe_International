@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Edufirst.css"
-import edu from "../../Assets/pics/eloans.jpeg"
+import edu from "../../Assets/pics/eloans.jpg"
 import eser1 from "../../Assets/pics/eservice1.jpg"
 import eser2 from "../../Assets/pics/eservice2.png"
 import eser3 from "../../Assets/pics/eservice3.jpg"
@@ -11,10 +11,10 @@ const StudyFirst = () => {
         <div className='eduimg'>
             <img src={edu} alt='Eduloans'></img>
         </div>
-        <div className='eduimagecontent'>
+        {/* <div className='eduimagecontent'>
             <h2> International Study<br />Loans</h2>
-            <p>One Stop Solution for Foreign Eduaction Loans</p>
-        </div>
+            <p>One Stop Solution for Foreign Education Loans</p>
+        </div> */}
         <div className='eloanservices'>
           <div className='eservice serblue'>
             <img src={eser1} alt='eservice'/>

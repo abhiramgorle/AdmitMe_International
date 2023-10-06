@@ -7,9 +7,9 @@ const StudyFirst = () => {
         <div className='testimg'>
             <img src={edu} alt='Eduloans'></img>
         </div>
-        <div className='testimagecontent'>
+        {/* <div className='testimagecontent'>
             <h2> Score More With Us</h2>
-        </div>
+        </div> */}
     </div>
   )
 }

@@ -1,8 +1,8 @@
 /* .footer{
-    position: absolute;
+    position: relative;
     width: 100%;
 height: 390px;
-top:4004px;
+top:1200px
 } */
 
 .sb_footer_section_padding{
@@ -42,8 +42,13 @@ top:4004px;
     text-align: left;
     margin-bottom: 1rem;
     padding: 1px;
+    position: relative;
+    left: 5%;
 }
-
+.sb_footer-made {
+    position: relative;
+    top: -8px;
+}
 .sb_footer-links_div1{
     width: 146px;
     margin: 1rem;
@@ -143,7 +148,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 padding: 0px;
-gap: 0px;
 
 width: 1109px;
 height: 40px;
@@ -155,8 +159,7 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 1px;
-
-width: 700px;
+width: 465px;
 height: 80px;
 }
 
@@ -210,18 +213,20 @@ border-radius: 10px;
     display: flex;
 flex-direction:row;
 align-items: center;
-padding: 0 465px;
-gap: 15px;
+position: relative;
+    top: -9px;
+    left: 8%;
+    gap: 625px;
 }
-.sb_footer-below p{
-    color: black;
-
+.sb_footer-below p {
+    color: white;
 }
 .sb_footer-below-made{
     padding:0 50px;
 }
 .footer h4{
     margin-block-end: 7px;
+    font-size: 19px;
 }
 
 .sb_footer-links_div1 p:hover{
@@ -232,4 +237,66 @@ gap: 15px;
     font-weight: 650;
     font-size: 14px;
     letter-spacing: 0.2px;
+}
+.phoneandmailfooter{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.phoneandmailfooter svg {
+    position: absolute;
+    top: 12px;
+    padding-left: 1px;
+}
+.phoneandmailfooter p {
+    padding-left: 36px;
+}
+.sb_footer-links_div_image {
+    width: 17%;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    padding: 0px 0px 0px 20px;
+    left: 7%;
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .sb_footer-links {
+        width: 90%;}
+    .footer .sb_footer-below{
+        gap: 24%;
+        left: 9%;
+        }
+        .sb_footer-made{
+            width: 50%;
+        }
+        .sb_footer-below-icons {
+            width: 25%;
+        }
+        .sb_footer-links_div3{
+            margin: 0.1rem;
+        }
+        .sb_footer-links_div{
+            width: 25%;
+            margin: 0.1rem;
+        }
+        .sb_footer-links{
+            left: 7%;
+        }
+        .footeremailtext{
+            font-size: 12px;
+        }
+    
+}
+    
+@media screen and (max-width:900px) {
+    .footer{
+        display: none;
+    }
+    
 }

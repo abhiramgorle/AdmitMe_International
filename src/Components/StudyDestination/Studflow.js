@@ -28,7 +28,7 @@ const Studflow = () => {
                 // spaceBetween={40}
                 loop={true}
                 autoplay={{
-                    delay: 600,
+                    delay: 1500,
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
@@ -83,7 +83,7 @@ const Studflow = () => {
                 // spaceBetween={40}
                 loop={true}
                 autoplay={{
-                    delay: 600,
+                    delay: 1500,
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}

@@ -1,6 +1,7 @@
 import React from "react";
-import {Routes,Route} from 'react-router-dom'
-import Home from './routes/Home'
+import {Routes,Route} from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+import Home from './routes/Home';
 import WhatWeDo from "./routes/WhatWeDo"
 import WhoWeAre from "./routes/WhoWeAre";
 import ScrollToTop from "./Components/ScrollToTop";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Eduloans" element={<Eduloans />} />
         <Route path="/Immigrate" element={<Immigrate />} />
         <Route path="/TestPrep" element={<TestPrep />} />
+        <Route path="*" element= < Navigate to={{pathname: '/WhatWeDo'}} / > /> 
       </Routes> 
       </ScrollToTop>
     </div>
